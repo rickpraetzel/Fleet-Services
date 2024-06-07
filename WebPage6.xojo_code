@@ -1,14 +1,17 @@
 #tag WebPage
 Begin WebPage WebPage6
+   AllowTabOrderWrap=   True
    Compatibility   =   ""
-   Cursor          =   0
+   ControlCount    =   0
+   ControlID       =   ""
    Enabled         =   True
-   Height          =   450
-   HelpTag         =   ""
-   HorizontalCenter=   0
+   Height          =   870
    ImplicitInstance=   True
    Index           =   -2147483648
+   Indicator       =   0
    IsImplicitInstance=   False
+   LayoutDirection =   0
+   LayoutType      =   0
    Left            =   0
    LockBottom      =   False
    LockHorizontal  =   False
@@ -16,37 +19,27 @@ Begin WebPage WebPage6
    LockRight       =   False
    LockTop         =   False
    LockVertical    =   False
-   MinHeight       =   450
-   MinWidth        =   300
-   Style           =   "None"
-   TabOrder        =   0
+   MinimumHeight   =   400
+   MinimumWidth    =   600
+   TabIndex        =   0
    Title           =   "Vehicle Problem Report"
    Top             =   0
-   VerticalCenter  =   0
    Visible         =   True
-   Width           =   300
-   ZIndex          =   1
-   _DeclareLineRendered=   False
-   _HorizontalPercent=   0.0
+   Width           =   770
    _ImplicitInstance=   False
-   _IsEmbedded     =   False
-   _Locked         =   False
-   _NeedsRendering =   True
-   _OfficialControl=   False
-   _OpenEventFired =   False
-   _ShownEventFired=   False
-   _VerticalPercent=   0.0
+   _mDesignHeight  =   0
+   _mDesignWidth   =   0
+   _mPanelIndex    =   -1
    Begin WebPopupMenu PopupMenu1
-      Cursor          =   0
+      ControlID       =   ""
       Enabled         =   True
       Height          =   22
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
+      Indicator       =   ""
       InitialValue    =   "Vehicle..."
-      Left            =   36
-      ListCount       =   0
-      ListIndex       =   0
+      LastAddedRowIndex=   0
+      LastRowIndex    =   0
+      Left            =   17
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -54,35 +47,27 @@ Begin WebPage WebPage6
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      RowCount        =   0
       Scope           =   0
-      Style           =   "0"
-      TabOrder        =   3
-      Text            =   ""
-      Top             =   20
-      VerticalCenter  =   0
+      SelectedRowIndex=   0
+      SelectedRowText =   ""
+      TabIndex        =   1
+      Tooltip         =   ""
+      Top             =   69
       Visible         =   True
       Width           =   225
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
    Begin WebPopupMenu PopupMenu2
-      Cursor          =   0
+      ControlID       =   ""
       Enabled         =   True
       Height          =   22
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
+      Indicator       =   ""
       InitialValue    =   "Driver..."
-      Left            =   36
-      ListCount       =   0
-      ListIndex       =   0
+      LastAddedRowIndex=   0
+      LastRowIndex    =   0
+      Left            =   273
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -90,34 +75,28 @@ Begin WebPage WebPage6
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      RowCount        =   0
       Scope           =   0
-      Style           =   "0"
-      TabOrder        =   4
-      Text            =   ""
-      Top             =   59
-      VerticalCenter  =   0
+      SelectedRowIndex=   0
+      SelectedRowText =   ""
+      TabIndex        =   2
+      Tooltip         =   ""
+      Top             =   69
       Visible         =   False
       Width           =   225
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
    Begin WebButton Button1
-      AutoDisable     =   False
+      AllowAutoDisable=   False
+      Cancel          =   False
       Caption         =   "Submit"
-      Cursor          =   0
+      ControlID       =   ""
+      Default         =   False
       Enabled         =   True
-      Height          =   43
-      HelpTag         =   ""
-      HorizontalCenter=   0
+      Height          =   73
       Index           =   -2147483648
-      Left            =   162
+      Indicator       =   ""
+      Left            =   483
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -126,32 +105,24 @@ Begin WebPage WebPage6
       LockTop         =   True
       LockVertical    =   False
       Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   15
-      Top             =   288
-      VerticalCenter  =   0
+      TabIndex        =   3
+      Tooltip         =   ""
+      Top             =   290
       Visible         =   True
-      Width           =   118
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      Width           =   164
+      _mPanelIndex    =   -1
    End
    Begin WebButton Button2
-      AutoDisable     =   False
+      AllowAutoDisable=   False
+      Cancel          =   False
       Caption         =   "Cancel"
-      Cursor          =   0
+      ControlID       =   ""
+      Default         =   False
       Enabled         =   True
-      Height          =   43
-      HelpTag         =   ""
-      HorizontalCenter=   0
+      Height          =   73
       Index           =   -2147483648
-      Left            =   20
+      Indicator       =   ""
+      Left            =   171
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -160,31 +131,23 @@ Begin WebPage WebPage6
       LockTop         =   True
       LockVertical    =   False
       Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   15
-      Top             =   288
-      VerticalCenter  =   0
+      TabIndex        =   4
+      Tooltip         =   ""
+      Top             =   290
       Visible         =   True
-      Width           =   118
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      Width           =   164
+      _mPanelIndex    =   -1
    End
    Begin WebTextArea TextArea1
-      CueText         =   ""
-      Cursor          =   0
+      AllowReturnKey  =   True
+      AllowSpellChecking=   False
+      Caption         =   ""
+      ControlID       =   ""
       Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   90
-      HelpTag         =   ""
-      HorizontalCenter=   0
+      Height          =   28
+      Hint            =   ""
       Index           =   -2147483648
+      Indicator       =   ""
       Left            =   20
       LockBottom      =   False
       LockedInPosition=   False
@@ -193,50 +156,28 @@ Begin WebPage WebPage6
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      MaximumCharactersAllowed=   0
       ReadOnly        =   False
       Scope           =   0
-      ScrollPosition  =   0
-      Style           =   "0"
-      TabOrder        =   17
+      TabIndex        =   5
       Text            =   ""
-      TextAlign       =   0
-      Top             =   165
-      VerticalCenter  =   0
+      TextAlignment   =   ""
+      Tooltip         =   ""
+      Top             =   144
       Visible         =   True
-      Width           =   260
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin SMTPSecureSocket SMTPSecureSocket1
-      CertificateFile =   
-      CertificatePassword=   ""
-      CertificateRejectionFile=   
-      Index           =   -2147483648
-      Left            =   0.0
-      LockedInPosition=   False
-      Scope           =   0
-      Secure          =   True
-      SMTPConnectionMode=   0
-      SSLConnectionType=   "3"
-      Style           =   "0"
-      TabPanelIndex   =   0
-      Top             =   0.0
+      Width           =   730
+      _mPanelIndex    =   -1
    End
    Begin WebLabel Label1
-      Cursor          =   1
+      Bold            =   False
+      ControlID       =   ""
       Enabled         =   True
-      HasFocusRing    =   True
+      FontName        =   ""
+      FontSize        =   0.0
       Height          =   22
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
+      Indicator       =   ""
+      Italic          =   False
       Left            =   20
       LockBottom      =   False
       LockedInPosition=   False
@@ -247,35 +188,27 @@ Begin WebPage WebPage6
       LockVertical    =   False
       Multiline       =   False
       Scope           =   0
-      Style           =   "0"
-      TabOrder        =   16
+      TabIndex        =   6
       Text            =   "Notation:"
-      TextAlign       =   0
-      Top             =   139
-      VerticalCenter  =   0
+      TextAlignment   =   0
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   118
+      Underline       =   False
       Visible         =   True
       Width           =   100
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
    Begin WebPopupMenu PopupMenu3
-      Cursor          =   0
+      ControlID       =   ""
       Enabled         =   True
       Height          =   22
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
+      Indicator       =   ""
       InitialValue    =   "Status...\nIn Service\nOut of Service\nIn for Service\nNeeds Pickup\nBeing Picked Up\nNeed-Pending"
-      Left            =   36
-      ListCount       =   0
-      ListIndex       =   0
+      LastAddedRowIndex=   0
+      LastRowIndex    =   0
+      Left            =   525
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -283,30 +216,22 @@ Begin WebPage WebPage6
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      RowCount        =   0
       Scope           =   0
-      Style           =   "0"
-      TabOrder        =   4
-      Text            =   ""
-      Top             =   97
-      VerticalCenter  =   0
+      SelectedRowIndex=   0
+      SelectedRowText =   ""
+      TabIndex        =   7
+      Tooltip         =   ""
+      Top             =   69
       Visible         =   True
       Width           =   225
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
-   Begin AutoDiscovery AutoDiscoveryClass1
+   Begin AutoDiscoveryClass AutoDiscoveryClass1
       BroadcastAddress=   ""
       Handle          =   0
       Index           =   -2147483648
       IsConnected     =   False
-      Left            =   0.0
       LocalAddress    =   ""
       LockedInPosition=   False
       PacketsAvailable=   0
@@ -315,17 +240,15 @@ Begin WebPage WebPage6
       RouterHops      =   32
       Scope           =   0
       SendToSelf      =   False
-      Style           =   "0"
-      TabPanelIndex   =   0
-      Top             =   0.0
+      TabPanelIndex   =   "0"
    End
 End
 #tag EndWebPage
 
 #tag WindowCode
 	#tag Event
-		Sub Open()
-		  LoadEmailSettings
+		Sub Opening()
+		  
 		  LoadRecipients
 		  LoadVehicles
 		  Loadstaff
@@ -344,31 +267,11 @@ End
 
 	#tag Method, Flags = &h0
 		Sub ClearThePage()
-		  popupmenu1.ListIndex = 0
-		  PopupMenu2.ListIndex = 0
-		  PopupMenu3.ListIndex = 0
+		  popupmenu1.SelectedRowIndex = 0
+		  PopupMenu2.SelectedRowIndex = 0
+		  PopupMenu3.SelectedRowIndex = 0
 		  
 		  TextArea1.text = ""
-		End Sub
-	#tag EndMethod
-
-	#tag Method, Flags = &h1
-		Protected Sub LoadEmailSettings()
-		  dim rs as recordset
-		  dim i as integer
-		  
-		  
-		  rs = session.mysqldb.sqlselect("Select * from esettings where serial = '1'")
-		  
-		  if rs <> nil then
-		    if not rs.bof and not rs.eof then
-		      EmailModule.smtphost = rs.field("smtpserver").value
-		      EmailModule.smtpport = rs.field("smtpport").value
-		      EmailModule.smtpusername = rs.field("username").value
-		      EmailModule.smtppassword = rs.field("password").value
-		      EmailModule.smtpauthorizationtype = rs.field("authorizationtype").value
-		    end if
-		  end if
 		End Sub
 	#tag EndMethod
 
@@ -406,7 +309,7 @@ End
 		    if not rs.bof and not rs.eof then
 		      while not rs.eof
 		        PopupMenu2.addrow DefineEncoding(rs.IdxField(1).StringValue,Encodings.utf8)
-		        PopupMenu2.rowtag(PopupMenu2.ListCount - 1) = rs.IdxField(2).value
+		        PopupMenu2.RowTagAt(PopupMenu2.RowCount - 1) = rs.IdxField(2).value
 		        rs.movenext
 		      wend
 		    end if
@@ -434,7 +337,7 @@ End
 		    if not rs.bof and not rs.eof then
 		      while not rs.eof
 		        PopupMenu1.addrow DefineEncoding(rs.IdxField(1).StringValue,Encodings.utf8)
-		        popupmenu1.rowtag(PopupMenu1.ListCount - 1) = rs.IdxField(2).value
+		        popupmenu1.RowTagAt(PopupMenu1.RowCount - 1) = rs.IdxField(2).value
 		        rs.movenext
 		      wend
 		    end if
@@ -453,19 +356,19 @@ End
 		  
 		  // SMTP is port 25
 		  
-		  SMTPSecureSocket1.port = aport
+		  App.Socket1.port = aport
 		  // set the address of the server
-		  SMTPSecureSocket1.address = aServer
+		  App.Socket1.address = aServer
 		  // set username and password (only used for authenticated SMTP)
 		  if EmailModule.smtpauthorizationtype = "None" then
 		  else
-		    SMTPSecureSocket1.username = aUsername
-		    SMTPSecureSocket1.password = aPassword
+		    App.Socket1.username = aUsername
+		    App.Socket1.password = aPassword
 		  end if
 		  // add the message to the socket
-		  SMTPSecureSocket1.messages.Append aMsg
+		  App.Socket1.messages.Append aMsg
 		  // start the send process
-		  SMTPSecureSocket1.SendMail
+		  App.Socket1.SendMail
 		  // show me
 		  
 		  
@@ -481,19 +384,19 @@ End
 		      dim rs as RecordSet
 		      dim sqlstring as string
 		      
-		      sqlstring = "SELECT serial,status,notes from vehicles where serial = " + PopupMenu1.rowtag(PopupMenu1.ListIndex)
+		      sqlstring = "SELECT serial,status,notes from vehicles where serial = " + PopupMenu1.RowTagAt(PopupMenu1.SelectedRowIndex)
 		      rs = session.mySQLdb.SQLSelect(sqlstring)
 		      if rs <> nil then
 		        if not rs.bof and not rs.eof then
 		          rs.edit
-		          rs.field("status").value = popupmenu3.text
+		          rs.field("status").value = popupmenu3.selectedrowtext
 		          rs.field("notes").value = ReplaceAll(TextArea1.text,"'","")
 		          rs.update
 		          if session.mysqldb.ErrorCode = 0 then
 		            AutoDiscoveryClass1.SendMessageToGroup(1,"Hi")
 		            '----- clear the contents of this page
 		            ClearThePage
-		            MsgBox "Thank you."
+		            MessageBox "Thank you."
 		            '----- return the app to webpage 0
 		            webpage0.show
 		            '-----
@@ -531,10 +434,10 @@ End
 		                  next
 		                  amsg.FromAddress = "FleetServices@zionadventures.com"
 		                  amsg.Subject = "Vehicle Status Change"
-		                  body = "From: " + PopupMenu2.text
-		                  body = body + EndOfLine + "Vehicle: " + popupmenu1.text
+		                  body = "From: " + PopupMenu2.selectedrowtext
+		                  body = body + EndOfLine + "Vehicle: " + popupmenu1.selectedrowtext
 		                  body = body + EndOfLine + "Sent from the Transportation iPad."
-		                  body = body + EndOfLine + "Status is changed to: " + popupmenu3.text + "."
+		                  body = body + EndOfLine + "Status is changed to: " + popupmenu3.selectedrowtext + "."
 		                  body = body + EndOfLine + TextArea1.text
 		                  amsg.BodyPlainText = body
 		                  SendMessage(EmailModule.smtphost,amsg,EmailModule.smtpusername,EmailModule.smtppassword,EmailModule.smtpport)
@@ -565,21 +468,21 @@ End
 
 #tag Events PopupMenu1
 	#tag Event
-		Sub SelectionChanged()
-		  if me.text <> "vehicle..." then 'set it's current status
+		Sub SelectionChanged(item As WebMenuItem)
+		  if me.selectedrowtext <> "vehicle..." then 'set it's current status
 		    '----- show its current status
 		    dim rs as RecordSet
 		    dim s as string
 		    dim i as integer
 		    if Session.mysqldb <> nil then
 		      if session.mysqldb.Connect then
-		        rs = session.mysqldb.SQLSelect("Select serial,status from vehicles where serial = " + PopupMenu1.rowtag(PopupMenu1.ListIndex))
+		        rs = session.mysqldb.SQLSelect("Select serial,status from vehicles where serial = " + PopupMenu1.RowTagAt(PopupMenu1.SelectedRowIndex))
 		        if rs <> nil then
 		          if not rs.bof and not rs.eof then
 		            s = rs.field("status").StringValue
-		            for i = 0 to popupmenu1.listcount - 1
-		              if PopupMenu3.list(i) = s then
-		                PopupMenu3.ListIndex = i
+		            for i = 0 to popupmenu1.RowCount - 1
+		              if PopupMenu3.rowtextat(i) = s then
+		                PopupMenu3.SelectedRowIndex = i
 		                exit
 		              end if
 		            next
@@ -593,16 +496,16 @@ End
 #tag EndEvents
 #tag Events Button1
 	#tag Event
-		Sub Action()
+		Sub Pressed()
 		  
-		  if popupmenu1.text <> "Vehicle..." then
-		    if PopupMenu3.text <> "Status..." then
+		  if popupmenu1.selectedrowtext <> "Vehicle..." then
+		    if PopupMenu3.selectedrowtext <> "Status..." then
 		      SubmitTheChange
 		    else
-		      MsgBox "Please sppecify a vehicle..."
+		      MessageBox "Please sppecify a vehicle..."
 		    end if
 		  else
-		    MsgBox "Please sppecify a status..."
+		    MessageBox "Please sppecify a status..."
 		  end if
 		  
 		  
@@ -611,90 +514,137 @@ End
 #tag EndEvents
 #tag Events Button2
 	#tag Event
-		Sub Action()
+		Sub Pressed()
 		  'ClearThePage
 		  webpage0.show
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events SMTPSecureSocket1
-	#tag Event
-		Sub Error(err As RuntimeException)
-		  
-		  // we get error 102 for just a regular disconnect
-		  
-		  if me.LastErrorCode <> 102 then
-		    msgbox "Error: " + Str(me.LastErrorCode)
-		  end if
-		  
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub ServerError(ErrorID as integer, ErrorMessage as string, Email as EmailMessage)
-		  
-		  msgbox ErrorMessage
-		  
-		  SMTPSecureSocket1.close
-		  
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub MailSent()
-		  
-		  
-		  msgbox "Message Sent."
-		  
-		  DelayMBS .5
-		  self.close
-		  
-		  exception err
-		    if err isa nilObjectException then
-		      msgbox "tcpsocket Nil Object"
-		    elseif err isa outofboundsException then
-		      msgbox "tcpsocket Out Of Bounds"
-		    elseif err isa typeMismatchException then
-		      msgbox "tcpsocket Type Mismatch"
-		    end if
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub ConnectionEstablished(greeting as string)
-		  'statustext.text = greeting
-		  dim n as integer = 1
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
-		Name="Cursor"
+		Name="ControlCount"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mPanelIndex"
+		Visible=false
+		Group="Behavior"
+		InitialValue="-1"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ControlID"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="String"
+		EditorType="MultiLineEditor"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="LayoutType"
 		Visible=true
 		Group="Behavior"
-		InitialValue="0"
-		Type="Integer"
+		InitialValue="LayoutTypes.Fixed"
+		Type="LayoutTypes"
 		EditorType="Enum"
 		#tag EnumValues
-			"0 - Automatic"
-			"1 - Standard Pointer"
-			"2 - Finger Pointer"
-			"3 - IBeam"
-			"4 - Wait"
-			"5 - Help"
-			"6 - Arrow All Directions"
-			"7 - Arrow North"
-			"8 - Arrow South"
-			"9 - Arrow East"
-			"10 - Arrow West"
-			"11 - Arrow Northeast"
-			"12 - Arrow Northwest"
-			"13 - Arrow Southeast"
-			"14 - Arrow Southwest"
-			"15 - Splitter East West"
-			"16 - Splitter North South"
-			"17 - Progress"
-			"18 - No Drop"
-			"19 - Not Allowed"
-			"20 - Vertical IBeam"
-			"21 - Crosshair"
+			"0 - Fixed"
+			"1 - Flex"
+		#tag EndEnumValues
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MinimumHeight"
+		Visible=true
+		Group="Behavior"
+		InitialValue="400"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MinimumWidth"
+		Visible=true
+		Group="Behavior"
+		InitialValue="600"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mDesignHeight"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mDesignWidth"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mName"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="String"
+		EditorType="MultiLineEditor"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="AllowTabOrderWrap"
+		Visible=false
+		Group="Behavior"
+		InitialValue="True"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="TabIndex"
+		Visible=true
+		Group="Visual Controls"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Indicator"
+		Visible=false
+		Group="Visual Controls"
+		InitialValue=""
+		Type="WebUIControl.Indicators"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - Default"
+			"1 - Primary"
+			"2 - Secondary"
+			"3 - Success"
+			"4 - Danger"
+			"5 - Warning"
+			"6 - Info"
+			"7 - Light"
+			"8 - Dark"
+			"9 - Link"
+		#tag EndEnumValues
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="LayoutDirection"
+		Visible=true
+		Group="WebView"
+		InitialValue="LayoutDirections.LeftToRight"
+		Type="LayoutDirections"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - LeftToRight"
+			"1 - RightToLeft"
+			"2 - TopToBottom"
+			"3 - BottomToTop"
 		#tag EndEnumValues
 	#tag EndViewProperty
 	#tag ViewProperty
@@ -710,22 +660,6 @@ End
 		Visible=true
 		Group="Behavior"
 		InitialValue="400"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="HelpTag"
-		Visible=true
-		Group="Behavior"
-		InitialValue=""
-		Type="String"
-		EditorType="MultiLineEditor"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="HorizontalCenter"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
 		Type="Integer"
 		EditorType=""
 	#tag EndViewProperty
@@ -802,22 +736,6 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="MinHeight"
-		Visible=true
-		Group="Behavior"
-		InitialValue="400"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MinWidth"
-		Visible=true
-		Group="Behavior"
-		InitialValue="600"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Name"
 		Visible=true
 		Group="ID"
@@ -834,14 +752,6 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="TabOrder"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Title"
 		Visible=true
 		Group="Behavior"
@@ -854,14 +764,6 @@ End
 		Visible=false
 		Group="Position"
 		InitialValue="0"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="VerticalCenter"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
 		Type="Integer"
 		EditorType=""
 	#tag EndViewProperty
@@ -882,91 +784,11 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="ZIndex"
-		Visible=false
-		Group="Behavior"
-		InitialValue="1"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_DeclareLineRendered"
-		Visible=false
-		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_HorizontalPercent"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Double"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="_ImplicitInstance"
 		Visible=false
 		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_IsEmbedded"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_Locked"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_NeedsRendering"
-		Visible=false
-		Group="Behavior"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_OfficialControl"
-		Visible=false
-		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_OpenEventFired"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_ShownEventFired"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_VerticalPercent"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Double"
 		EditorType=""
 	#tag EndViewProperty
 #tag EndViewBehavior

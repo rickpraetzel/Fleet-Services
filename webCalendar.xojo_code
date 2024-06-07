@@ -1,12 +1,14 @@
 #tag WebPage
 Begin WebDialog webCalendar
    Compatibility   =   ""
-   Cursor          =   0
+   ControlCount    =   0
+   ControlID       =   ""
    Enabled         =   True
    Height          =   432
-   HelpTag         =   ""
-   HorizontalCenter=   0
    Index           =   0
+   Indicator       =   0
+   LayoutDirection =   0
+   LayoutType      =   0
    Left            =   367
    LockBottom      =   False
    LockHorizontal  =   False
@@ -14,34 +16,22 @@ Begin WebDialog webCalendar
    LockRight       =   False
    LockTop         =   False
    LockVertical    =   False
-   MinHeight       =   432
-   MinWidth        =   434
-   Resizable       =   False
-   Style           =   "None"
-   TabOrder        =   0
-   Title           =   "Calendar"
+   TabIndex        =   0
    Top             =   118
-   Type            =   3
-   VerticalCenter  =   0
    Visible         =   True
    Width           =   434
-   ZIndex          =   1
-   _DeclareLineRendered=   False
-   _HorizontalPercent=   0.0
-   _IsEmbedded     =   False
-   _Locked         =   False
-   _NeedsRendering =   True
-   _OfficialControl=   False
-   _OpenEventFired =   False
-   _ShownEventFired=   False
-   _VerticalPercent=   0.0
+   _mDesignHeight  =   0
+   _mDesignWidth   =   0
+   _mPanelIndex    =   -1
    Begin iCalendar iCalendar1
-      Cursor          =   0
+      ControlCount    =   0
+      ControlID       =   ""
       Enabled         =   True
       Height          =   432
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
+      Indicator       =   0
+      LayoutDirection =   0
+      LayoutType      =   0
       Left            =   0
       LockBottom      =   False
       LockedInPosition=   False
@@ -51,24 +41,16 @@ Begin WebDialog webCalendar
       LockTop         =   True
       LockVertical    =   False
       Scope           =   0
-      ScrollbarsVisible=   2
-      SelectedDay     =   0
-      Style           =   "0"
-      TabOrder        =   0
+      ScrollDirection =   0
+      TabIndex        =   0
+      TabStop         =   True
+      Tooltip         =   ""
       Top             =   0
-      VerticalCenter  =   0
       Visible         =   True
       Width           =   434
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _ShownEventFired=   False
-      _VerticalPercent=   0.0
+      _mDesignHeight  =   0
+      _mDesignWidth   =   0
+      _mPanelIndex    =   -1
    End
 End
 #tag EndWebPage
@@ -79,13 +61,10 @@ End
 		  
 		  if WebPageSeekingDate = 1 then
 		    showingdate = self.iCalendar1.now
-		    webpage1.label1.text = ShowingDate.LongDate
 		  elseif WebPageSeekingDate = 3 then
 		    webpage3.TextField4.text = datetohrdate(self.iCalendar1.now)
-		  elseif WebPageSeekingDate = 7 then
-		    webpage7.TextField4.text = datetohrdate(self.iCalendar1.now)
-		  elseif WebPageSeekingDate = 8 then
-		    webpage8.TextField4.text = datetohrdate(self.iCalendar1.now)
+		  elseif WebPageSeekingDate = 4 then
+		    webpage4.datefield.text = datetohrdate(self.iCalendar1.now)
 		  end if
 		End Sub
 	#tag EndEvent
@@ -95,48 +74,155 @@ End
 		settingdate As Integer
 	#tag EndProperty
 
+	#tag Property, Flags = &h0
+		webpageseekingdate As Integer
+	#tag EndProperty
+
 
 #tag EndWindowCode
 
-#tag Events iCalendar1
-	#tag Event
-		Sub JustPickedADay()
-		  self.close
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
-		Name="Cursor"
+		Name="ControlCount"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mPanelIndex"
+		Visible=false
+		Group="Behavior"
+		InitialValue="-1"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ControlID"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="String"
+		EditorType="MultiLineEditor"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="LayoutType"
 		Visible=true
 		Group="Behavior"
-		InitialValue="0"
-		Type="Integer"
+		InitialValue="LayoutTypes.Fixed"
+		Type="LayoutTypes"
 		EditorType="Enum"
 		#tag EnumValues
-			"0 - Automatic"
-			"1 - Standard Pointer"
-			"2 - Finger Pointer"
-			"3 - IBeam"
-			"4 - Wait"
-			"5 - Help"
-			"6 - Arrow All Directions"
-			"7 - Arrow North"
-			"8 - Arrow South"
-			"9 - Arrow East"
-			"10 - Arrow West"
-			"11 - Arrow Northeast"
-			"12 - Arrow Northwest"
-			"13 - Arrow Southeast"
-			"14 - Arrow Southwest"
-			"15 - Splitter East West"
-			"16 - Splitter North South"
-			"17 - Progress"
-			"18 - No Drop"
-			"19 - Not Allowed"
-			"20 - Vertical IBeam"
-			"21 - Crosshair"
+			"0 - Fixed"
+			"1 - Flex"
 		#tag EndEnumValues
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mDesignHeight"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mDesignWidth"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mName"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="String"
+		EditorType="MultiLineEditor"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="TabIndex"
+		Visible=true
+		Group="Visual Controls"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Indicator"
+		Visible=false
+		Group="Visual Controls"
+		InitialValue=""
+		Type="WebUIControl.Indicators"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - Default"
+			"1 - Primary"
+			"2 - Secondary"
+			"3 - Success"
+			"4 - Danger"
+			"5 - Warning"
+			"6 - Info"
+			"7 - Light"
+			"8 - Dark"
+			"9 - Link"
+		#tag EndEnumValues
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="LayoutDirection"
+		Visible=true
+		Group="WebView"
+		InitialValue="LayoutDirections.LeftToRight"
+		Type="LayoutDirections"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - LeftToRight"
+			"1 - RightToLeft"
+			"2 - TopToBottom"
+			"3 - BottomToTop"
+		#tag EndEnumValues
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Index"
+		Visible=false
+		Group="ID"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Name"
+		Visible=true
+		Group="ID"
+		InitialValue=""
+		Type="String"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Super"
+		Visible=true
+		Group="ID"
+		InitialValue=""
+		Type="String"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Left"
+		Visible=false
+		Group="Position"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Top"
+		Visible=false
+		Group="Position"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="Enabled"
@@ -151,38 +237,6 @@ End
 		Visible=true
 		Group="Behavior"
 		InitialValue="300"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="HelpTag"
-		Visible=true
-		Group="Behavior"
-		InitialValue=""
-		Type="String"
-		EditorType="MultiLineEditor"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="HorizontalCenter"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Index"
-		Visible=false
-		Group="ID"
-		InitialValue=""
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Left"
-		Visible=false
-		Group="Position"
-		InitialValue=""
 		Type="Integer"
 		EditorType=""
 	#tag EndViewProperty
@@ -235,103 +289,6 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="MinHeight"
-		Visible=true
-		Group="Minimum Size"
-		InitialValue="0"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MinWidth"
-		Visible=true
-		Group="Minimum Size"
-		InitialValue="0"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Name"
-		Visible=true
-		Group="ID"
-		InitialValue=""
-		Type="String"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Resizable"
-		Visible=true
-		Group="Behavior"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="settingdate"
-		Visible=true
-		Group="Behavior"
-		InitialValue=""
-		Type="Integer"
-		EditorType="Enum"
-		#tag EnumValues
-			"0 - Startdate"
-			"1 - Enddate"
-		#tag EndEnumValues
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Super"
-		Visible=true
-		Group="ID"
-		InitialValue=""
-		Type="String"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="TabOrder"
-		Visible=true
-		Group="Behavior"
-		InitialValue="0"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Title"
-		Visible=true
-		Group="Behavior"
-		InitialValue="Untitled"
-		Type="String"
-		EditorType="MultiLineEditor"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Top"
-		Visible=false
-		Group="Position"
-		InitialValue=""
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="Type"
-		Visible=true
-		Group="Behavior"
-		InitialValue="1"
-		Type="Integer"
-		EditorType="Enum"
-		#tag EnumValues
-			"1 - Sheet"
-			"2 - Palette"
-			"3 - Modal"
-		#tag EndEnumValues
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="VerticalCenter"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Visible"
 		Visible=false
 		Group="Behavior"
@@ -348,83 +305,23 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="ZIndex"
-		Visible=false
+		Name="settingdate"
+		Visible=true
 		Group="Behavior"
-		InitialValue="1"
+		InitialValue=""
 		Type="Integer"
-		EditorType=""
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - Startdate"
+			"1 - Enddate"
+		#tag EndEnumValues
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="_DeclareLineRendered"
-		Visible=false
-		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_HorizontalPercent"
+		Name="webpageseekingdate"
 		Visible=false
 		Group="Behavior"
 		InitialValue=""
-		Type="Double"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_IsEmbedded"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_Locked"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_NeedsRendering"
-		Visible=false
-		Group="Behavior"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_OfficialControl"
-		Visible=false
-		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_OpenEventFired"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_ShownEventFired"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_VerticalPercent"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Double"
+		Type="Integer"
 		EditorType=""
 	#tag EndViewProperty
 #tag EndViewBehavior

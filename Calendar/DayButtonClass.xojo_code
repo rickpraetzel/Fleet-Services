@@ -1,103 +1,87 @@
 #tag Class
-Protected Class ScrollingLabel
-Inherits WebLabel
+Protected Class DayButtonClass
+Inherits Webbutton
 	#tag Event
-		Sub Opening()
-		  me.initialposition = me.top
+		Sub Pressed()
+		  'a day has been clicked
+		  Dim sDay as integer
+		  
+		  if me.parent isa iCalendar then
+		    icalendar(me.parent).SelectedDay = me.dayindex
+		    
+		    if me.Caption>"" then            'a valid day?
+		      'icalendar(me.parent).now.day=val(me.Caption)   'set date
+		      'self.hide
+		    end if
+		  end if
+		  
+		  
+		  
+		  for sDay = 0 to 36
+		    'iDayButton(sDay).Style = CenterDays
+		  next sDay
+		  
+		  'iDay(SelectedDay).Style = DayPicked
+		  'JustPickedADay
 		End Sub
 	#tag EndEvent
 
 
+	#tag Hook, Flags = &h0
+		Event JustPickeADay(pickedday as integer)
+	#tag EndHook
+
+
 	#tag Property, Flags = &h0
-		initialposition As Integer
+		dayindex As Integer
 	#tag EndProperty
 
 
 	#tag ViewBehavior
 		#tag ViewProperty
-			Name="_mPanelIndex"
-			Visible=false
-			Group="Behavior"
-			InitialValue="-1"
+			Name="Index"
+			Visible=true
+			Group="ID"
+			InitialValue="-2147483648"
 			Type="Integer"
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="ControlID"
-			Visible=false
-			Group="Behavior"
+			Name="Name"
+			Visible=true
+			Group="ID"
 			InitialValue=""
 			Type="String"
-			EditorType="MultiLineEditor"
+			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="_mName"
-			Visible=false
-			Group="Behavior"
+			Name="Super"
+			Visible=true
+			Group="ID"
 			InitialValue=""
 			Type="String"
-			EditorType="MultiLineEditor"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Bold"
-			Visible=true
-			Group="Behavior"
-			InitialValue=""
-			Type="Boolean"
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="Italic"
+			Name="Left"
 			Visible=true
-			Group="Behavior"
-			InitialValue=""
-			Type="Boolean"
+			Group="Position"
+			InitialValue="0"
+			Type="Integer"
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="FontName"
+			Name="Top"
 			Visible=true
-			Group="Behavior"
-			InitialValue=""
-			Type="String"
-			EditorType="MultiLineEditor"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="FontSize"
-			Visible=true
-			Group="Behavior"
-			InitialValue=""
-			Type="Double"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Underline"
-			Visible=true
-			Group="Behavior"
-			InitialValue=""
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="TextColor"
-			Visible=true
-			Group="Behavior"
-			InitialValue="&c000000FF"
-			Type="ColorGroup"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="TabIndex"
-			Visible=true
-			Group="Visual Controls"
-			InitialValue=""
+			Group="Position"
+			InitialValue="0"
 			Type="Integer"
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="Indicator"
-			Visible=false
-			Group="Visual Controls"
+			Visible=true
+			Group="Behavior"
 			InitialValue=""
 			Type="WebUIControl.Indicators"
 			EditorType="Enum"
@@ -115,20 +99,6 @@ Inherits WebLabel
 			#tag EndEnumValues
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="TextAlignment"
-			Visible=true
-			Group="Label"
-			InitialValue="0"
-			Type="Xojo.TextAlignments"
-			EditorType="Enum"
-			#tag EnumValues
-				"0 - Default"
-				"1 - Left"
-				"2 - Center"
-				"3 - Right"
-			#tag EndEnumValues
-		#tag EndViewProperty
-		#tag ViewProperty
 			Name="Enabled"
 			Visible=true
 			Group="Behavior"
@@ -140,20 +110,12 @@ Inherits WebLabel
 			Name="Height"
 			Visible=true
 			Group="Behavior"
-			InitialValue="22"
+			InitialValue="34"
 			Type="Integer"
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="LockBottom"
-			Visible=true
-			Group="Behavior"
-			InitialValue="False"
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="LockHorizontal"
 			Visible=true
 			Group="Behavior"
 			InitialValue="False"
@@ -185,34 +147,10 @@ Inherits WebLabel
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="LockVertical"
-			Visible=true
-			Group="Behavior"
-			InitialValue="False"
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Multiline"
-			Visible=true
-			Group="Behavior"
-			InitialValue="False"
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Text"
-			Visible=true
-			Group="Behavior"
-			InitialValue="Untitled"
-			Type="String"
-			EditorType="MultiLineEditor"
-		#tag EndViewProperty
-		#tag ViewProperty
 			Name="Visible"
 			Visible=true
 			Group="Behavior"
-			InitialValue="True"
+			InitialValue=""
 			Type="Boolean"
 			EditorType=""
 		#tag EndViewProperty
@@ -225,52 +163,92 @@ Inherits WebLabel
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="Index"
+			Name="dayindex"
 			Visible=true
-			Group="ID"
-			InitialValue="-2147483648"
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Left"
-			Visible=true
-			Group="Position"
-			InitialValue="0"
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Name"
-			Visible=true
-			Group="ID"
-			InitialValue=""
-			Type="String"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Super"
-			Visible=true
-			Group="ID"
-			InitialValue=""
-			Type="String"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Top"
-			Visible=true
-			Group="Position"
-			InitialValue="0"
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="initialposition"
-			Visible=false
 			Group="Behavior"
 			InitialValue=""
 			Type="Integer"
 			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="TabIndex"
+			Visible=true
+			Group="Visual Controls"
+			InitialValue=""
+			Type="Integer"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="AllowAutoDisable"
+			Visible=true
+			Group="Button"
+			InitialValue="False"
+			Type="Boolean"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Cancel"
+			Visible=true
+			Group="Button"
+			InitialValue="False"
+			Type="Boolean"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Caption"
+			Visible=true
+			Group="Button"
+			InitialValue="Untitled"
+			Type="String"
+			EditorType="String"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Default"
+			Visible=true
+			Group="Button"
+			InitialValue="False"
+			Type="Boolean"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="_mPanelIndex"
+			Visible=false
+			Group="Behavior"
+			InitialValue="-1"
+			Type="Integer"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="ControlID"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="String"
+			EditorType="MultiLineEditor"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="LockHorizontal"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="Boolean"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="LockVertical"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="Boolean"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="_mName"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="String"
+			EditorType="MultiLineEditor"
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class

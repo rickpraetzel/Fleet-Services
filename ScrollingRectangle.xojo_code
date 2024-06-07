@@ -2,7 +2,7 @@
 Protected Class ScrollingRectangle
 Inherits webrectangle
 	#tag Event
-		Sub Open()
+		Sub Opening()
 		  me.initialposition = me.top
 		End Sub
 	#tag EndEvent
@@ -15,35 +15,121 @@ Inherits webrectangle
 
 	#tag ViewBehavior
 		#tag ViewProperty
-			Name="Cursor"
+			Name="ControlCount"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="Integer"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="_mPanelIndex"
+			Visible=false
+			Group="Behavior"
+			InitialValue="-1"
+			Type="Integer"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="_mDesignHeight"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="Integer"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="_mDesignWidth"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="Integer"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="ControlID"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="String"
+			EditorType="MultiLineEditor"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="_mName"
+			Visible=false
+			Group="Behavior"
+			InitialValue=""
+			Type="String"
+			EditorType="MultiLineEditor"
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="HasBackgroundColor"
 			Visible=true
 			Group="Behavior"
-			InitialValue="0"
+			InitialValue="False"
+			Type="Boolean"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="BackgroundColor"
+			Visible=true
+			Group="Behavior"
+			InitialValue="&cFFFFFF"
+			Type="ColorGroup"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="TabIndex"
+			Visible=true
+			Group="Visual Controls"
+			InitialValue=""
 			Type="Integer"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Indicator"
+			Visible=false
+			Group="Visual Controls"
+			InitialValue=""
+			Type="WebUIControl.Indicators"
 			EditorType="Enum"
 			#tag EnumValues
-				"0 - Automatic"
-				"1 - Standard Pointer"
-				"2 - Finger Pointer"
-				"3 - IBeam"
-				"4 - Wait"
-				"5 - Help"
-				"6 - Arrow All Directions"
-				"7 - Arrow North"
-				"8 - Arrow South"
-				"9 - Arrow East"
-				"10 - Arrow West"
-				"11 - Arrow Northeast"
-				"12 - Arrow Northwest"
-				"13 - Arrow Southeast"
-				"14 - Arrow Southwest"
-				"15 - Splitter East West"
-				"16 - Splitter North South"
-				"17 - Progress"
-				"18 - No Drop"
-				"19 - Not Allowed"
-				"20 - Vertical IBeam"
-				"21 - Crosshair"
+				"0 - Default"
+				"1 - Primary"
+				"2 - Secondary"
+				"3 - Success"
+				"4 - Danger"
+				"5 - Warning"
+				"6 - Info"
+				"7 - Light"
+				"8 - Dark"
+				"9 - Link"
+			#tag EndEnumValues
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="LayoutType"
+			Visible=true
+			Group="WebView"
+			InitialValue="LayoutTypes.Fixed"
+			Type="LayoutTypes"
+			EditorType="Enum"
+			#tag EnumValues
+				"0 - Fixed"
+				"1 - Flex"
+			#tag EndEnumValues
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="LayoutDirection"
+			Visible=true
+			Group="WebView"
+			InitialValue="LayoutDirections.LeftToRight"
+			Type="LayoutDirections"
+			EditorType="Enum"
+			#tag EnumValues
+				"0 - LeftToRight"
+				"1 - RightToLeft"
+				"2 - TopToBottom"
+				"3 - BottomToTop"
 			#tag EndEnumValues
 		#tag EndViewProperty
 		#tag ViewProperty
@@ -59,46 +145,6 @@ Inherits webrectangle
 			Visible=true
 			Group="Behavior"
 			InitialValue="100"
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="HelpTag"
-			Visible=true
-			Group="Behavior"
-			InitialValue=""
-			Type="String"
-			EditorType="MultiLineEditor"
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="HorizontalCenter"
-			Visible=false
-			Group="Behavior"
-			InitialValue=""
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Index"
-			Visible=true
-			Group="ID"
-			InitialValue="-2147483648"
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="initialposition"
-			Visible=false
-			Group="Behavior"
-			InitialValue=""
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Left"
-			Visible=true
-			Group="Position"
-			InitialValue="0"
 			Type="Integer"
 			EditorType=""
 		#tag EndViewProperty
@@ -151,46 +197,6 @@ Inherits webrectangle
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="Name"
-			Visible=true
-			Group="ID"
-			InitialValue=""
-			Type="String"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Super"
-			Visible=true
-			Group="ID"
-			InitialValue=""
-			Type="String"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="TabOrder"
-			Visible=true
-			Group="Behavior"
-			InitialValue="0"
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="Top"
-			Visible=true
-			Group="Position"
-			InitialValue="0"
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="VerticalCenter"
-			Visible=false
-			Group="Behavior"
-			InitialValue=""
-			Type="Integer"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
 			Name="Visible"
 			Visible=true
 			Group="Behavior"
@@ -207,75 +213,51 @@ Inherits webrectangle
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="ZIndex"
-			Visible=false
-			Group="Behavior"
-			InitialValue="1"
+			Name="Index"
+			Visible=true
+			Group="ID"
+			InitialValue="-2147483648"
 			Type="Integer"
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="_DeclareLineRendered"
-			Visible=false
-			Group="Behavior"
-			InitialValue="False"
-			Type="Boolean"
+			Name="Left"
+			Visible=true
+			Group="Position"
+			InitialValue="0"
+			Type="Integer"
 			EditorType=""
 		#tag EndViewProperty
 		#tag ViewProperty
-			Name="_HorizontalPercent"
+			Name="Name"
+			Visible=true
+			Group="ID"
+			InitialValue=""
+			Type="String"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Super"
+			Visible=true
+			Group="ID"
+			InitialValue=""
+			Type="String"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="Top"
+			Visible=true
+			Group="Position"
+			InitialValue="0"
+			Type="Integer"
+			EditorType=""
+		#tag EndViewProperty
+		#tag ViewProperty
+			Name="initialposition"
 			Visible=false
 			Group="Behavior"
 			InitialValue=""
-			Type="Double"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="_IsEmbedded"
-			Visible=false
-			Group="Behavior"
-			InitialValue=""
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="_Locked"
-			Visible=false
-			Group="Behavior"
-			InitialValue=""
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="_NeedsRendering"
-			Visible=false
-			Group="Behavior"
-			InitialValue="True"
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="_OfficialControl"
-			Visible=false
-			Group="Behavior"
-			InitialValue="False"
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="_OpenEventFired"
-			Visible=false
-			Group="Behavior"
-			InitialValue=""
-			Type="Boolean"
-			EditorType=""
-		#tag EndViewProperty
-		#tag ViewProperty
-			Name="_VerticalPercent"
-			Visible=false
-			Group="Behavior"
-			InitialValue=""
-			Type="Double"
+			Type="Integer"
 			EditorType=""
 		#tag EndViewProperty
 	#tag EndViewBehavior

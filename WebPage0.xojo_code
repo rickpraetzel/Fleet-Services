@@ -1,14 +1,17 @@
 #tag WebPage
 Begin WebPage WebPage0
+   AllowTabOrderWrap=   True
    Compatibility   =   ""
-   Cursor          =   0
+   ControlCount    =   0
+   ControlID       =   ""
    Enabled         =   True
-   Height          =   480
-   HelpTag         =   ""
-   HorizontalCenter=   0
+   Height          =   858
    ImplicitInstance=   True
    Index           =   -2147483648
+   Indicator       =   0
    IsImplicitInstance=   False
+   LayoutDirection =   0
+   LayoutType      =   0
    Left            =   0
    LockBottom      =   False
    LockHorizontal  =   False
@@ -16,36 +19,28 @@ Begin WebPage WebPage0
    LockRight       =   False
    LockTop         =   False
    LockVertical    =   False
-   MinHeight       =   480
-   MinWidth        =   320
-   Style           =   "None"
-   TabOrder        =   0
+   MinimumHeight   =   400
+   MinimumWidth    =   600
+   TabIndex        =   0
    Title           =   "Fleet Services Data Entry"
    Top             =   0
-   VerticalCenter  =   0
    Visible         =   True
-   Width           =   320
-   ZIndex          =   1
-   _DeclareLineRendered=   False
-   _HorizontalPercent=   0.0
+   Width           =   770
    _ImplicitInstance=   False
-   _IsEmbedded     =   False
-   _Locked         =   False
-   _NeedsRendering =   True
-   _OfficialControl=   False
-   _OpenEventFired =   False
-   _ShownEventFired=   False
-   _VerticalPercent=   0.0
+   _mDesignHeight  =   0
+   _mDesignWidth   =   0
+   _mPanelIndex    =   -1
    Begin WebButton Button1
-      AutoDisable     =   False
+      AllowAutoDisable=   False
+      Cancel          =   False
       Caption         =   "Fuel Up Event"
-      Cursor          =   0
+      ControlID       =   ""
+      Default         =   False
       Enabled         =   True
       Height          =   53
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   54
+      Indicator       =   ""
+      Left            =   270
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -54,32 +49,24 @@ Begin WebPage WebPage0
       LockTop         =   True
       LockVertical    =   False
       Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   0
-      Top             =   61
-      VerticalCenter  =   0
+      TabIndex        =   1
+      Tooltip         =   ""
+      Top             =   181
       Visible         =   True
       Width           =   211
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
-   Begin WebButton Button2
-      AutoDisable     =   False
-      Caption         =   "DOT Inspection"
-      Cursor          =   0
+   Begin WebButton Button3
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Vehicle Repair Event"
+      ControlID       =   ""
+      Default         =   False
       Enabled         =   True
       Height          =   53
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   54
+      Indicator       =   ""
+      Left            =   270
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -88,32 +75,24 @@ Begin WebPage WebPage0
       LockTop         =   True
       LockVertical    =   False
       Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   0
-      Top             =   127
-      VerticalCenter  =   0
+      TabIndex        =   2
+      Tooltip         =   ""
+      Top             =   357
       Visible         =   True
       Width           =   211
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
    Begin WebButton Button4
-      AutoDisable     =   False
+      AllowAutoDisable=   False
+      Cancel          =   False
       Caption         =   "Report Vehicle Problem"
-      Cursor          =   0
+      ControlID       =   ""
+      Default         =   False
       Enabled         =   True
       Height          =   53
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   54
+      Indicator       =   ""
+      Left            =   270
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -122,31 +101,24 @@ Begin WebPage WebPage0
       LockTop         =   True
       LockVertical    =   False
       Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   0
-      Top             =   261
-      VerticalCenter  =   0
+      TabIndex        =   3
+      Tooltip         =   ""
+      Top             =   443
       Visible         =   True
       Width           =   211
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
    Begin WebLabel Label1
-      Cursor          =   1
+      Bold            =   False
+      ControlID       =   ""
       Enabled         =   True
-      HasFocusRing    =   True
+      FontName        =   ""
+      FontSize        =   0.0
       Height          =   35
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   7
+      Indicator       =   ""
+      Italic          =   False
+      Left            =   159
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -156,68 +128,28 @@ Begin WebPage WebPage0
       LockVertical    =   False
       Multiline       =   False
       Scope           =   0
-      Style           =   "822540159"
-      TabOrder        =   1
+      TabIndex        =   4
       Text            =   "ZAC FLEET SERVICES"
-      TextAlign       =   0
-      Top             =   12
-      VerticalCenter  =   0
+      TextAlignment   =   0
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   90
+      Underline       =   False
       Visible         =   True
-      Width           =   305
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebButton Button3
-      AutoDisable     =   False
-      Caption         =   "Change Vehicle Status"
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   53
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   54
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   0
-      Top             =   193
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   211
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      Width           =   455
+      _mPanelIndex    =   -1
    End
    Begin WebButton Button5
-      AutoDisable     =   False
-      Caption         =   "Record Oil Change"
-      Cursor          =   0
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Change Vehicle Status"
+      ControlID       =   ""
+      Default         =   False
       Enabled         =   True
       Height          =   53
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   54
+      Indicator       =   ""
+      Left            =   270
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -226,142 +158,172 @@ Begin WebPage WebPage0
       LockTop         =   True
       LockVertical    =   False
       Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   0
-      Top             =   326
-      VerticalCenter  =   0
+      TabIndex        =   5
+      Tooltip         =   ""
+      Top             =   270
       Visible         =   True
       Width           =   211
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebButton Button6
-      AutoDisable     =   False
-      Caption         =   "Record Tire Rotation"
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   53
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   54
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   0
-      Top             =   392
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   211
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
 End
 #tag EndWebPage
 
 #tag WindowCode
-	#tag Event
-		Sub Open()
-		  
-		End Sub
-	#tag EndEvent
-
-
 #tag EndWindowCode
 
 #tag Events Button1
 	#tag Event
-		Sub Action()
+		Sub Pressed()
 		  WEbpage3.show
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events Button2
-	#tag Event
-		Sub Action()
-		  webpage1.show
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events Button4
-	#tag Event
-		Sub Action()
-		  webpage5.show
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events Button3
 	#tag Event
-		Sub Action()
-		  webpage6.show
+		Sub Pressed()
+		  webpage4.show
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events Button4
+	#tag Event
+		Sub Pressed()
+		  webpage5.show
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events Button5
 	#tag Event
-		Sub Action()
-		  WEbpage7.show
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events Button6
-	#tag Event
-		Sub Action()
-		  WEbpage8.show
+		Sub Pressed()
+		  webpage6.show
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
-		Name="Cursor"
+		Name="ControlCount"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mPanelIndex"
+		Visible=false
+		Group="Behavior"
+		InitialValue="-1"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ControlID"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="String"
+		EditorType="MultiLineEditor"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="LayoutType"
 		Visible=true
 		Group="Behavior"
-		InitialValue="0"
-		Type="Integer"
+		InitialValue="LayoutTypes.Fixed"
+		Type="LayoutTypes"
 		EditorType="Enum"
 		#tag EnumValues
-			"0 - Automatic"
-			"1 - Standard Pointer"
-			"2 - Finger Pointer"
-			"3 - IBeam"
-			"4 - Wait"
-			"5 - Help"
-			"6 - Arrow All Directions"
-			"7 - Arrow North"
-			"8 - Arrow South"
-			"9 - Arrow East"
-			"10 - Arrow West"
-			"11 - Arrow Northeast"
-			"12 - Arrow Northwest"
-			"13 - Arrow Southeast"
-			"14 - Arrow Southwest"
-			"15 - Splitter East West"
-			"16 - Splitter North South"
-			"17 - Progress"
-			"18 - No Drop"
-			"19 - Not Allowed"
-			"20 - Vertical IBeam"
-			"21 - Crosshair"
+			"0 - Fixed"
+			"1 - Flex"
+		#tag EndEnumValues
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MinimumHeight"
+		Visible=true
+		Group="Behavior"
+		InitialValue="400"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MinimumWidth"
+		Visible=true
+		Group="Behavior"
+		InitialValue="600"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mDesignHeight"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mDesignWidth"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mName"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="String"
+		EditorType="MultiLineEditor"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="AllowTabOrderWrap"
+		Visible=false
+		Group="Behavior"
+		InitialValue="True"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="TabIndex"
+		Visible=true
+		Group="Visual Controls"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Indicator"
+		Visible=false
+		Group="Visual Controls"
+		InitialValue=""
+		Type="WebUIControl.Indicators"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - Default"
+			"1 - Primary"
+			"2 - Secondary"
+			"3 - Success"
+			"4 - Danger"
+			"5 - Warning"
+			"6 - Info"
+			"7 - Light"
+			"8 - Dark"
+			"9 - Link"
+		#tag EndEnumValues
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="LayoutDirection"
+		Visible=true
+		Group="WebView"
+		InitialValue="LayoutDirections.LeftToRight"
+		Type="LayoutDirections"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - LeftToRight"
+			"1 - RightToLeft"
+			"2 - TopToBottom"
+			"3 - BottomToTop"
 		#tag EndEnumValues
 	#tag EndViewProperty
 	#tag ViewProperty
@@ -377,22 +339,6 @@ End
 		Visible=true
 		Group="Behavior"
 		InitialValue="400"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="HelpTag"
-		Visible=true
-		Group="Behavior"
-		InitialValue=""
-		Type="String"
-		EditorType="MultiLineEditor"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="HorizontalCenter"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
 		Type="Integer"
 		EditorType=""
 	#tag EndViewProperty
@@ -469,22 +415,6 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="MinHeight"
-		Visible=true
-		Group="Behavior"
-		InitialValue="400"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MinWidth"
-		Visible=true
-		Group="Behavior"
-		InitialValue="600"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Name"
 		Visible=true
 		Group="ID"
@@ -501,14 +431,6 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="TabOrder"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Title"
 		Visible=true
 		Group="Behavior"
@@ -521,14 +443,6 @@ End
 		Visible=false
 		Group="Position"
 		InitialValue="0"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="VerticalCenter"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
 		Type="Integer"
 		EditorType=""
 	#tag EndViewProperty
@@ -549,91 +463,11 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="ZIndex"
-		Visible=false
-		Group="Behavior"
-		InitialValue="1"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_DeclareLineRendered"
-		Visible=false
-		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_HorizontalPercent"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Double"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="_ImplicitInstance"
 		Visible=false
 		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_IsEmbedded"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_Locked"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_NeedsRendering"
-		Visible=false
-		Group="Behavior"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_OfficialControl"
-		Visible=false
-		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_OpenEventFired"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_ShownEventFired"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_VerticalPercent"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Double"
 		EditorType=""
 	#tag EndViewProperty
 #tag EndViewBehavior

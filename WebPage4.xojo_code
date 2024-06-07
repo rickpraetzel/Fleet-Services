@@ -1,14 +1,17 @@
 #tag WebPage
 Begin WebPage WebPage4
+   AllowTabOrderWrap=   True
    Compatibility   =   ""
-   Cursor          =   0
+   ControlCount    =   0
+   ControlID       =   ""
    Enabled         =   True
    Height          =   870
-   HelpTag         =   ""
-   HorizontalCenter=   0
    ImplicitInstance=   True
    Index           =   -2147483648
+   Indicator       =   0
    IsImplicitInstance=   False
+   LayoutDirection =   0
+   LayoutType      =   0
    Left            =   0
    LockBottom      =   False
    LockHorizontal  =   False
@@ -16,37 +19,27 @@ Begin WebPage WebPage4
    LockRight       =   False
    LockTop         =   False
    LockVertical    =   False
-   MinHeight       =   400
-   MinWidth        =   600
-   Style           =   "None"
-   TabOrder        =   0
+   MinimumHeight   =   400
+   MinimumWidth    =   600
+   TabIndex        =   0
    Title           =   "Vehicle Repair Event"
    Top             =   0
-   VerticalCenter  =   0
    Visible         =   True
    Width           =   770
-   ZIndex          =   1
-   _DeclareLineRendered=   False
-   _HorizontalPercent=   0.0
    _ImplicitInstance=   False
-   _IsEmbedded     =   False
-   _Locked         =   False
-   _NeedsRendering =   True
-   _OfficialControl=   False
-   _OpenEventFired =   False
-   _ShownEventFired=   False
-   _VerticalPercent=   0.0
+   _mDesignHeight  =   0
+   _mDesignWidth   =   0
+   _mPanelIndex    =   -1
    Begin WebPopupMenu PopupMenu1
-      Cursor          =   0
+      ControlID       =   ""
       Enabled         =   True
       Height          =   22
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
+      Indicator       =   ""
       InitialValue    =   "Vehicle..."
+      LastAddedRowIndex=   0
+      LastRowIndex    =   0
       Left            =   20
-      ListCount       =   0
-      ListIndex       =   0
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -54,35 +47,27 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      RowCount        =   0
       Scope           =   0
-      Style           =   "0"
-      TabOrder        =   3
-      Text            =   ""
+      SelectedRowIndex=   0
+      SelectedRowText =   ""
+      TabIndex        =   1
+      Tooltip         =   ""
       Top             =   35
-      VerticalCenter  =   0
       Visible         =   True
       Width           =   225
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
    Begin WebPopupMenu PopupMenu2
-      Cursor          =   0
+      ControlID       =   ""
       Enabled         =   True
       Height          =   22
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
+      Indicator       =   ""
       InitialValue    =   "Poster..."
+      LastAddedRowIndex=   0
+      LastRowIndex    =   0
       Left            =   20
-      ListCount       =   0
-      ListIndex       =   0
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -90,255 +75,27 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      RowCount        =   0
       Scope           =   0
-      Style           =   "0"
-      TabOrder        =   4
-      Text            =   ""
+      SelectedRowIndex=   0
+      SelectedRowText =   ""
+      TabIndex        =   2
+      Tooltip         =   ""
       Top             =   77
-      VerticalCenter  =   0
       Visible         =   True
       Width           =   225
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
+      _mPanelIndex    =   -1
    End
    Begin WebButton Button1
-      AutoDisable     =   False
+      AllowAutoDisable=   False
+      Cancel          =   False
       Caption         =   "Submit"
-      Cursor          =   0
+      ControlID       =   ""
+      Default         =   False
       Enabled         =   True
       Height          =   73
-      HelpTag         =   ""
-      HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   495
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   15
-      Top             =   599
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   164
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebButton Button2
-      AutoDisable     =   False
-      Caption         =   "Cancel"
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   73
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   138
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   0
-      Style           =   "1411155081"
-      TabOrder        =   15
-      Top             =   599
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   164
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebPopupMenu PopupMenu3
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   22
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "Add Item..."
-      Left            =   414
-      ListCount       =   0
-      ListIndex       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   0
-      Style           =   "0"
-      TabOrder        =   4
-      Text            =   ""
-      Top             =   77
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   225
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebListBox ListBox1
-      AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   1
-      ColumnWidths    =   "*"
-      Cursor          =   0
-      Enabled         =   True
-      HasHeading      =   True
-      HeaderStyle     =   "0"
-      Height          =   394
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "Item"
-      Left            =   18
-      ListIndex       =   -1
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      MinimumRowHeight=   32
-      Multiline       =   False
-      PrimaryRowColor =   &cFFFFFF00
-      Scope           =   0
-      SelectionStyle  =   "0"
-      Style           =   "29712893"
-      TabOrder        =   -1
-      Top             =   119
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   373
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebListBox ListBox2
-      AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   1
-      ColumnWidths    =   "*"
-      Cursor          =   0
-      Enabled         =   True
-      HasHeading      =   True
-      HeaderStyle     =   "0"
-      Height          =   394
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "Select Item..."
-      Left            =   414
-      ListIndex       =   -1
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      MinimumRowHeight=   32
-      Multiline       =   False
-      PrimaryRowColor =   &cFFFFFF00
-      Scope           =   0
-      SelectionStyle  =   "0"
-      Style           =   "29712893"
-      TabOrder        =   -1
-      Top             =   119
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   336
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebButton Button3
-      AutoDisable     =   False
-      Caption         =   "Add item to this list"
-      Cursor          =   0
-      Enabled         =   False
-      Height          =   22
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   414
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   0
-      Style           =   "0"
-      TabOrder        =   16
-      Top             =   525
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   336
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin AddValueDialog AddValueDialog1
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   122
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
+      Indicator       =   ""
       Left            =   489
       LockBottom      =   False
       LockedInPosition=   False
@@ -347,36 +104,476 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      MinHeight       =   0
-      MinWidth        =   0
-      Resizable       =   True
       Scope           =   0
-      Style           =   "0"
-      TabOrder        =   -1
-      TabPanelIndex   =   0
-      Title           =   "Untitled"
+      TabIndex        =   3
+      Tooltip         =   ""
+      Top             =   689
+      Visible         =   True
+      Width           =   164
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton Button2
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Cancel"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   73
+      Index           =   -2147483648
+      Indicator       =   ""
+      Left            =   132
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      TabIndex        =   4
+      Tooltip         =   ""
+      Top             =   689
+      Visible         =   True
+      Width           =   164
+      _mPanelIndex    =   -1
+   End
+   Begin WebPopupMenu PopupMenu3
+      ControlID       =   ""
+      Enabled         =   True
+      Height          =   22
+      Index           =   -2147483648
+      Indicator       =   ""
+      InitialValue    =   "Add Item..."
+      LastAddedRowIndex=   0
+      LastRowIndex    =   0
+      Left            =   556
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      RowCount        =   0
+      Scope           =   0
+      SelectedRowIndex=   0
+      SelectedRowText =   ""
+      TabIndex        =   5
+      Tooltip         =   ""
+      Top             =   78
+      Visible         =   True
+      Width           =   194
+      _mPanelIndex    =   -1
+   End
+   Begin WebListBox ListBox1
+      ColumnCount     =   1
+      ColumnWidths    =   "*"
+      ControlID       =   ""
+      Enabled         =   True
+      HasHeader       =   False
+      Height          =   394
+      HighlightSortedColumn=   True
+      Index           =   -2147483648
+      Indicator       =   ""
+      InitialValue    =   "Item"
+      LastAddedRowIndex=   0
+      LastColumnIndex =   0
+      LastRowIndex    =   0
+      Left            =   18
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      NoRowsMessage   =   ""
+      ProcessingMessage=   ""
+      RowCount        =   0
+      RowSelectionType=   1
+      Scope           =   0
+      SearchCriteria  =   ""
+      SelectedRowColor=   &c0d6efd
+      SelectedRowIndex=   0
+      TabIndex        =   6
+      Tooltip         =   ""
+      Top             =   139
+      Visible         =   True
+      Width           =   373
+      _mPanelIndex    =   -1
+   End
+   Begin WebListBox ListBox2
+      ColumnCount     =   1
+      ColumnWidths    =   "*"
+      ControlID       =   ""
+      Enabled         =   True
+      HasHeader       =   False
+      Height          =   394
+      HighlightSortedColumn=   True
+      Index           =   -2147483648
+      Indicator       =   ""
+      InitialValue    =   "Select Item..."
+      LastAddedRowIndex=   0
+      LastColumnIndex =   0
+      LastRowIndex    =   0
+      Left            =   414
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      NoRowsMessage   =   ""
+      ProcessingMessage=   ""
+      RowCount        =   0
+      RowSelectionType=   1
+      Scope           =   0
+      SearchCriteria  =   ""
+      SelectedRowColor=   &c0d6efd
+      SelectedRowIndex=   0
+      TabIndex        =   7
+      Tooltip         =   ""
+      Top             =   139
+      Visible         =   True
+      Width           =   336
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton Button3
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Add item to this list"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   False
+      Height          =   22
+      Index           =   -2147483648
+      Indicator       =   ""
+      Left            =   414
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      TabIndex        =   8
+      Tooltip         =   ""
+      Top             =   545
+      Visible         =   True
+      Width           =   336
+      _mPanelIndex    =   -1
+   End
+   Begin AddValueDialog AddValueDialog1
+      ControlCount    =   0
+      ControlID       =   ""
+      Enabled         =   True
+      Height          =   122
+      Index           =   -2147483648
+      Indicator       =   ""
+      LayoutDirection =   "LayoutDirections.LeftToRight"
+      LayoutType      =   "LayoutTypes.Fixed"
+      Left            =   489
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      TabIndex        =   9
+      TabPanelIndex   =   "0"
+      Tooltip         =   ""
       Top             =   20
-      Type            =   1
-      VerticalCenter  =   0
       Visible         =   True
       Width           =   300
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _ShownEventFired=   False
-      _VerticalPercent=   0.0
+      _mDesignHeight  =   0
+      _mDesignWidth   =   0
+      _mPanelIndex    =   -1
+   End
+   Begin WebLabel Label2
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   0.0
+      Height          =   22
+      Index           =   -2147483648
+      Indicator       =   ""
+      Italic          =   False
+      Left            =   556
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      TabIndex        =   9
+      Text            =   "Mileage"
+      TextAlignment   =   0
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   35
+      Underline       =   False
+      Visible         =   True
+      Width           =   58
+      _mPanelIndex    =   -1
+   End
+   Begin WebLabel Label3
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   0.0
+      Height          =   22
+      Index           =   -2147483648
+      Indicator       =   ""
+      Italic          =   False
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      TabIndex        =   10
+      Text            =   "Notes"
+      TextAlignment   =   0
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   571
+      Underline       =   False
+      Visible         =   True
+      Width           =   100
+      _mPanelIndex    =   -1
+   End
+   Begin WebLabel Label4
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   0.0
+      Height          =   22
+      Index           =   -2147483648
+      Indicator       =   ""
+      Italic          =   False
+      Left            =   280
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      TabIndex        =   11
+      Text            =   "Date:"
+      TextAlignment   =   0
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   35
+      Underline       =   False
+      Visible         =   True
+      Width           =   43
+      _mPanelIndex    =   -1
+   End
+   Begin WebTextField datefield
+      AllowAutoComplete=   False
+      AllowSpellChecking=   False
+      Caption         =   ""
+      ControlID       =   ""
+      Enabled         =   True
+      FieldType       =   0
+      Height          =   22
+      Hint            =   ""
+      Index           =   -2147483648
+      Indicator       =   ""
+      Left            =   323
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MaximumCharactersAllowed=   0
+      ReadOnly        =   True
+      Scope           =   0
+      TabIndex        =   12
+      Text            =   ""
+      TextAlignment   =   ""
+      Tooltip         =   ""
+      Top             =   35
+      Visible         =   True
+      Width           =   124
+      _mPanelIndex    =   -1
+   End
+   Begin WebTextField mileagefield
+      AllowAutoComplete=   False
+      AllowSpellChecking=   False
+      Caption         =   ""
+      ControlID       =   ""
+      Enabled         =   True
+      FieldType       =   3
+      Height          =   22
+      Hint            =   ""
+      Index           =   -2147483648
+      Indicator       =   ""
+      Left            =   626
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MaximumCharactersAllowed=   0
+      ReadOnly        =   False
+      Scope           =   0
+      TabIndex        =   13
+      Text            =   ""
+      TextAlignment   =   ""
+      Tooltip         =   ""
+      Top             =   35
+      Visible         =   True
+      Width           =   124
+      _mPanelIndex    =   -1
+   End
+   Begin WebImageViewer ImageView1
+      ControlID       =   ""
+      DisplayMode     =   3
+      Enabled         =   True
+      Height          =   64
+      Image           =   1761656357
+      Index           =   -2147483648
+      Indicator       =   ""
+      Left            =   459
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      SVGData         =   ""
+      TabIndex        =   14
+      Tooltip         =   ""
+      Top             =   35
+      URL             =   ""
+      Visible         =   True
+      Width           =   64
+      _mPanelIndex    =   -1
+      _ProtectImage   =   False
+   End
+   Begin WebTextArea notesfield
+      AllowReturnKey  =   True
+      AllowSpellChecking=   False
+      Caption         =   ""
+      ControlID       =   ""
+      Enabled         =   True
+      Height          =   64
+      Hint            =   ""
+      Index           =   -2147483648
+      Indicator       =   ""
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MaximumCharactersAllowed=   0
+      ReadOnly        =   False
+      Scope           =   0
+      TabIndex        =   14
+      Text            =   ""
+      TextAlignment   =   ""
+      Tooltip         =   ""
+      Top             =   591
+      Visible         =   True
+      Width           =   730
+      _mPanelIndex    =   -1
+   End
+   Begin webCalendar webCalendar1
+      ControlCount    =   0
+      ControlID       =   ""
+      Enabled         =   True
+      Height          =   432
+      Index           =   -2147483648
+      Indicator       =   ""
+      LayoutDirection =   "LayoutDirections.LeftToRight"
+      LayoutType      =   "LayoutTypes.Fixed"
+      Left            =   387
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      settingdate     =   0
+      TabIndex        =   15
+      TabPanelIndex   =   "0"
+      Tooltip         =   ""
+      Top             =   138
+      Visible         =   True
+      Width           =   434
+      _mDesignHeight  =   0
+      _mDesignWidth   =   0
+      _mPanelIndex    =   -1
+   End
+   Begin WebButton Button4
+      AllowAutoDisable=   False
+      Cancel          =   False
+      Caption         =   "Remove Item"
+      ControlID       =   ""
+      Default         =   False
+      Enabled         =   True
+      Height          =   22
+      Index           =   -2147483648
+      Indicator       =   ""
+      Left            =   211
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      TabIndex        =   15
+      Tooltip         =   ""
+      Top             =   545
+      Visible         =   True
+      Width           =   180
+      _mPanelIndex    =   -1
    End
 End
 #tag EndWebPage
 
 #tag WindowCode
 	#tag Event
-		Sub Open()
+		Sub Opening()
+		  'show today's date
+		  
+		  dim d as new date
+		  
+		  datefield.text = datetohrdate(d)
+		  
+		  
 		  LoadRepairMenu
 		  LoadStaff
 		  LoadVehicles
@@ -388,11 +585,11 @@ End
 		Sub clearthewindow()
 		  'clear the choices and return to the main window
 		  
-		  listbox1.DeleteAllRows
-		  listbox2.DeleteAllRows
-		  PopupMenu1.ListIndex = 0
-		  PopupMenu2.ListIndex = 0
-		  PopupMenu3.ListIndex = 0
+		  listbox1.RemoveAllRows
+		  listbox2.RemoveAllRows
+		  PopupMenu1.SelectedRowIndex = 0
+		  PopupMenu2.SelectedRowIndex = 0
+		  PopupMenu3.SelectedRowIndex = 0
 		  WebPage0.show
 		End Sub
 	#tag EndMethod
@@ -410,7 +607,7 @@ End
 		      if not rs.bof and not rs.eof then
 		        while not rs.eof
 		          PopupMenu3.addrow rs.Field("title").StringValue
-		          PopupMenu3.RowTag(PopupMenu3.ListCount - 1) =  rs.field("serial").value
+		          PopupMenu3.RowTagAt(PopupMenu3.RowCount - 1) =  rs.field("serial").value
 		          rs.movenext
 		        wend
 		      end if
@@ -430,7 +627,7 @@ End
 		    if not rs.bof and not rs.eof then
 		      while not rs.eof
 		        PopupMenu2.addrow DefineEncoding(rs.IdxField(1).StringValue,Encodings.utf8)
-		        PopupMenu2.rowtag(PopupMenu2.ListCount - 1) = rs.IdxField(2).value
+		        PopupMenu2.RowTagAt(PopupMenu2.RowCount - 1) = rs.IdxField(2).value
 		        rs.movenext
 		      wend
 		    end if
@@ -452,7 +649,7 @@ End
 		    if not rs.bof and not rs.eof then
 		      while not rs.eof
 		        PopupMenu1.addrow DefineEncoding(rs.IdxField(1).StringValue,Encodings.utf8)
-		        popupmenu1.rowtag(PopupMenu1.ListCount - 1) = rs.IdxField(2).value
+		        popupmenu1.RowTagAt(PopupMenu1.RowCount - 1) = rs.IdxField(2).value
 		        rs.movenext
 		      wend
 		    end if
@@ -470,7 +667,7 @@ End
 
 #tag Events Button1
 	#tag Event
-		Sub Action()
+		Sub Pressed()
 		  'create a repair event
 		  '----- validate data
 		  
@@ -478,9 +675,11 @@ End
 		    if session.mysqldb.connect then
 		      dim rec as new DatabaseRecord
 		      dim d as new date
-		      rec.Column("vehicle") = PopupMenu1.text
-		      rec.column("poster") = popupmenu2.text
-		      rec.column("date") = datetoworddate(d)
+		      rec.Column("vehicle") = PopupMenu1.selectedrowtext
+		      rec.column("poster") = popupmenu2.selectedrowtext
+		      rec.column("date") = hrdatetoworddate(datefield.text)
+		      rec.column("mileage") = mileagefield.text
+		      rec.Column("notes") = notesfield.text
 		      session.mysqldb.InsertRecord("vehicle_repairevents",rec)
 		      if session.mysqldb.ErrorCode = 0 then
 		        'populate the repaireventitems
@@ -494,10 +693,9 @@ End
 		            for i = 0 to listbox1.rowcount - 1
 		              rec = new DatabaseRecord
 		              rec.column("repairserial") = ser
-		              rec.column("repaircatserial") = PopupMenu3.RowTag(PopupMenu3.ListIndex)
-		              s = listbox1.cell(i,0)
+		              rec.column("repaircatserial") = PopupMenu3.RowTagAt(PopupMenu3.SelectedRowIndex)
+		              s = listbox1.celltextat(i,0)
 		              rec.column("description") = s
-		              rec.column("date") = datetoworddate(d)
 		              session.mysqldb.InsertRecord("vehicle_repaireventitems",rec)
 		              if session.mysqldb.ErrorCode = 0 then
 		              else
@@ -506,16 +704,16 @@ End
 		            next
 		            if errs > 0 then
 		              if errs = 1 then
-		                MsgBox "One record failed to save to the database."
+		                MessageBox "One record failed to save to the database."
 		              else
-		                MsgBox str(errs) + " records failed to save to the database."
+		                MessageBox str(errs) + " records failed to save to the database."
 		              end if
 		            else
-		              MsgBox "Thank you."
+		              MessageBox "Thank you."
 		            end if
 		            clearthewindow
 		          else
-		            MsgBox "Failed to log the repair event in the database."
+		            MessageBox "Failed to log the repair event in the database."
 		          end if
 		        end if
 		      end if
@@ -526,7 +724,7 @@ End
 #tag EndEvents
 #tag Events Button2
 	#tag Event
-		Sub Action()
+		Sub Pressed()
 		  'ClearThePage
 		  webpage0.show
 		End Sub
@@ -534,16 +732,16 @@ End
 #tag EndEvents
 #tag Events PopupMenu3
 	#tag Event
-		Sub SelectionChanged()
+		Sub SelectionChanged(item As WebMenuItem)
 		  
-		  if me.ListIndex > 0 then
-		    listbox2.DeleteAllRows
+		  if me.SelectedRowIndex > 0 then
+		    listbox2.RemoveAllRows
 		    
 		    dim rs as RecordSet
 		    dim sqlstring as string
 		    dim i as integer
 		    
-		    sqlstring = "Select * from vehicle_repaircatselectables where repaircatserial = '" + me.RowTag(me.ListIndex) + "'"
+		    sqlstring = "Select * from vehicle_repaircatselectables where repaircatserial = '" + me.RowTagAt(me.SelectedRowIndex) + "'"
 		    if session <> nil and session.mysqldb <> nil then
 		      rs = session.mysqldb.SQLSelect(sqlstring)
 		      if rs <> nil then
@@ -564,51 +762,166 @@ End
 #tag EndEvents
 #tag Events ListBox2
 	#tag Event
-		Sub SelectionChanged()
-		  if me.ListIndex <> -1 then
-		    listbox1.addrow me.cell(me.ListIndex,0)
+		Sub SelectionChanged(rows() As Integer)
+		  if me.SelectedRowIndex <> -1 then
+		    
+		    listbox1.addrowat (me.celltextat(me.SelectedRowIndex,0))
 		  end if
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag Events Button3
 	#tag Event
-		Sub Action()
+		Sub Pressed()
 		  AddValueDialog1.show
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ImageView1
+	#tag Event
+		Sub Pressed(x As Integer, y As Integer)
+		  WebPageSeekingDate = 4
+		  WebCalendar1.show
+		  WebCalendar1.settingdate = 0
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events Button4
+	#tag Event
+		Sub Pressed()
+		  if listbox1.RowCount > 0 then
+		    if listbox1.SelectedRowIndex >= 0 then
+		      listbox1.RemoveRowat listbox1.SelectedRowIndex
+		    end if
+		  end if
 		End Sub
 	#tag EndEvent
 #tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
-		Name="Cursor"
+		Name="ControlCount"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mPanelIndex"
+		Visible=false
+		Group="Behavior"
+		InitialValue="-1"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ControlID"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="String"
+		EditorType="MultiLineEditor"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="LayoutType"
 		Visible=true
 		Group="Behavior"
-		InitialValue="0"
-		Type="Integer"
+		InitialValue="LayoutTypes.Fixed"
+		Type="LayoutTypes"
 		EditorType="Enum"
 		#tag EnumValues
-			"0 - Automatic"
-			"1 - Standard Pointer"
-			"2 - Finger Pointer"
-			"3 - IBeam"
-			"4 - Wait"
-			"5 - Help"
-			"6 - Arrow All Directions"
-			"7 - Arrow North"
-			"8 - Arrow South"
-			"9 - Arrow East"
-			"10 - Arrow West"
-			"11 - Arrow Northeast"
-			"12 - Arrow Northwest"
-			"13 - Arrow Southeast"
-			"14 - Arrow Southwest"
-			"15 - Splitter East West"
-			"16 - Splitter North South"
-			"17 - Progress"
-			"18 - No Drop"
-			"19 - Not Allowed"
-			"20 - Vertical IBeam"
-			"21 - Crosshair"
+			"0 - Fixed"
+			"1 - Flex"
+		#tag EndEnumValues
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MinimumHeight"
+		Visible=true
+		Group="Behavior"
+		InitialValue="400"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="MinimumWidth"
+		Visible=true
+		Group="Behavior"
+		InitialValue="600"
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mDesignHeight"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mDesignWidth"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="_mName"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="String"
+		EditorType="MultiLineEditor"
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="AllowTabOrderWrap"
+		Visible=false
+		Group="Behavior"
+		InitialValue="True"
+		Type="Boolean"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="TabIndex"
+		Visible=true
+		Group="Visual Controls"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="Indicator"
+		Visible=false
+		Group="Visual Controls"
+		InitialValue=""
+		Type="WebUIControl.Indicators"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - Default"
+			"1 - Primary"
+			"2 - Secondary"
+			"3 - Success"
+			"4 - Danger"
+			"5 - Warning"
+			"6 - Info"
+			"7 - Light"
+			"8 - Dark"
+			"9 - Link"
+		#tag EndEnumValues
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="LayoutDirection"
+		Visible=true
+		Group="WebView"
+		InitialValue="LayoutDirections.LeftToRight"
+		Type="LayoutDirections"
+		EditorType="Enum"
+		#tag EnumValues
+			"0 - LeftToRight"
+			"1 - RightToLeft"
+			"2 - TopToBottom"
+			"3 - BottomToTop"
 		#tag EndEnumValues
 	#tag EndViewProperty
 	#tag ViewProperty
@@ -624,22 +937,6 @@ End
 		Visible=true
 		Group="Behavior"
 		InitialValue="400"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="HelpTag"
-		Visible=true
-		Group="Behavior"
-		InitialValue=""
-		Type="String"
-		EditorType="MultiLineEditor"
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="HorizontalCenter"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
 		Type="Integer"
 		EditorType=""
 	#tag EndViewProperty
@@ -716,22 +1013,6 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="MinHeight"
-		Visible=true
-		Group="Behavior"
-		InitialValue="400"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="MinWidth"
-		Visible=true
-		Group="Behavior"
-		InitialValue="600"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Name"
 		Visible=true
 		Group="ID"
@@ -748,14 +1029,6 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="TabOrder"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="Title"
 		Visible=true
 		Group="Behavior"
@@ -768,14 +1041,6 @@ End
 		Visible=false
 		Group="Position"
 		InitialValue="0"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="VerticalCenter"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
 		Type="Integer"
 		EditorType=""
 	#tag EndViewProperty
@@ -796,91 +1061,11 @@ End
 		EditorType=""
 	#tag EndViewProperty
 	#tag ViewProperty
-		Name="ZIndex"
-		Visible=false
-		Group="Behavior"
-		InitialValue="1"
-		Type="Integer"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_DeclareLineRendered"
-		Visible=false
-		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_HorizontalPercent"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Double"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
 		Name="_ImplicitInstance"
 		Visible=false
 		Group="Behavior"
 		InitialValue="False"
 		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_IsEmbedded"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_Locked"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_NeedsRendering"
-		Visible=false
-		Group="Behavior"
-		InitialValue="True"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_OfficialControl"
-		Visible=false
-		Group="Behavior"
-		InitialValue="False"
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_OpenEventFired"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_ShownEventFired"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Boolean"
-		EditorType=""
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="_VerticalPercent"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Double"
 		EditorType=""
 	#tag EndViewProperty
 #tag EndViewBehavior
