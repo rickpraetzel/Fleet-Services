@@ -5,6 +5,7 @@ Inherits Webbutton
 		Sub Pressed()
 		  'a day has been clicked
 		  Dim sDay as integer
+		  dim i as integer
 		  
 		  if me.parent isa iCalendar then
 		    icalendar(me.parent).SelectedDay = me.dayindex
@@ -17,15 +18,16 @@ Inherits Webbutton
 		  
 		  
 		  
-		  for sDay = 0 to 36
-		    'iDayButton(sDay).Style = CenterDays
-		  next sDay
+		  'for sDay = 0 to 36
+		  ''iDayButton(sDay).Style = CenterDays
+		  'next sDay
 		  
 		  'iDay(SelectedDay).Style = DayPicked
-		  if me.parent isa iCalendar then
-		    icalendar(me.parent).justpickedaday(val(me.caption))
-		  end if
-		  JustPickedADay(val(me.caption))
+		  
+		  icalendar(me.parent).now.day = (val(me.caption))
+		  me.parent.parent.close
+		  
+		  
 		  
 		End Sub
 	#tag EndEvent
