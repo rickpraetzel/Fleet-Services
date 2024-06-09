@@ -22,13 +22,14 @@ Inherits Webbutton
 		  next sDay
 		  
 		  'iDay(SelectedDay).Style = DayPicked
-		  'JustPickedADay
+		  JustPickedADay(val(me.caption))
+		  
 		End Sub
 	#tag EndEvent
 
 
 	#tag Hook, Flags = &h0
-		Event JustPickeADay(pickedday as integer)
+		Event JustPickedADay(pickedday as integer)
 	#tag EndHook
 
 

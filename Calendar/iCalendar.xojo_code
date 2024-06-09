@@ -24,16 +24,16 @@ Begin WebContainer iCalendar
    _mDesignWidth   =   0
    _mPanelIndex    =   -1
    Begin WebLabel lblMonth
-      Bold            =   False
+      Bold            =   True
       ControlID       =   ""
       Enabled         =   True
       FontName        =   ""
-      FontSize        =   0.0
+      FontSize        =   20.0
       Height          =   45
       Index           =   -2147483648
-      indicator       =   0
+      Indicator       =   0
       Italic          =   False
-      Left            =   12
+      Left            =   3
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -42,15 +42,13 @@ Begin WebContainer iCalendar
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   0
-      TabStop         =   True
       Text            =   "Untitled"
-      TextAlignment   =   0
+      TextAlignment   =   2
       TextColor       =   &c000000FF
       Tooltip         =   ""
-      Top             =   0
+      Top             =   22
       Underline       =   False
       Visible         =   True
       Width           =   429
@@ -64,7 +62,7 @@ Begin WebContainer iCalendar
       FontSize        =   0.0
       Height          =   21
       Index           =   -2147483648
-      indicator       =   0
+      Indicator       =   0
       Italic          =   False
       Left            =   374
       LockBottom      =   True
@@ -75,12 +73,10 @@ Begin WebContainer iCalendar
       LockTop         =   False
       LockVertical    =   False
       Multiline       =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   1
-      TabStop         =   True
       Text            =   ">"
-      TextAlignment   =   0
+      TextAlignment   =   2
       TextColor       =   &c000000FF
       Tooltip         =   "Next Month"
       Top             =   391
@@ -97,7 +93,7 @@ Begin WebContainer iCalendar
       FontSize        =   0.0
       Height          =   21
       Index           =   -2147483648
-      indicator       =   0
+      Indicator       =   0
       Italic          =   False
       Left            =   6
       LockBottom      =   True
@@ -108,12 +104,10 @@ Begin WebContainer iCalendar
       LockTop         =   False
       LockVertical    =   False
       Multiline       =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   2
-      TabStop         =   True
       Text            =   "<"
-      TextAlignment   =   0
+      TextAlignment   =   2
       TextColor       =   &c000000FF
       Tooltip         =   "Previous Month"
       Top             =   391
@@ -130,9 +124,9 @@ Begin WebContainer iCalendar
       FontSize        =   0.0
       Height          =   21
       Index           =   -2147483648
-      indicator       =   0
+      Indicator       =   0
       Italic          =   False
-      Left            =   116
+      Left            =   130
       LockBottom      =   True
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -141,12 +135,10 @@ Begin WebContainer iCalendar
       LockTop         =   False
       LockVertical    =   False
       Multiline       =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   3
-      TabStop         =   True
       Text            =   "<<"
-      TextAlignment   =   0
+      TextAlignment   =   2
       TextColor       =   &c000000FF
       Tooltip         =   "Previous Year"
       Top             =   391
@@ -163,9 +155,9 @@ Begin WebContainer iCalendar
       FontSize        =   0.0
       Height          =   21
       Index           =   -2147483648
-      indicator       =   0
+      Indicator       =   0
       Italic          =   False
-      Left            =   234
+      Left            =   248
       LockBottom      =   True
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -174,12 +166,10 @@ Begin WebContainer iCalendar
       LockTop         =   False
       LockVertical    =   False
       Multiline       =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   4
-      TabStop         =   True
       Text            =   ">>"
-      TextAlignment   =   0
+      TextAlignment   =   2
       TextColor       =   &c000000FF
       Tooltip         =   "Next Year"
       Top             =   391
@@ -207,10 +197,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   5
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   93
       Visible         =   True
@@ -236,10 +224,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   6
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   93
       Visible         =   True
@@ -265,10 +251,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   7
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   93
       Visible         =   True
@@ -294,10 +278,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   8
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   93
       Visible         =   True
@@ -323,10 +305,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   9
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   93
       Visible         =   True
@@ -352,10 +332,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   10
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   93
       Visible         =   True
@@ -381,10 +359,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   11
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   93
       Visible         =   True
@@ -396,7 +372,7 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   0
+      dayindex        =   7
       Default         =   False
       Enabled         =   True
       Height          =   45
@@ -410,10 +386,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   12
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   143
       Visible         =   True
@@ -425,7 +399,7 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   1
+      dayindex        =   8
       Default         =   False
       Enabled         =   True
       Height          =   45
@@ -439,10 +413,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   13
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   143
       Visible         =   True
@@ -454,7 +426,7 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   2
+      dayindex        =   9
       Default         =   False
       Enabled         =   True
       Height          =   45
@@ -468,10 +440,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   14
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   143
       Visible         =   True
@@ -483,7 +453,7 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   3
+      dayindex        =   10
       Default         =   False
       Enabled         =   True
       Height          =   45
@@ -497,10 +467,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   15
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   143
       Visible         =   True
@@ -512,7 +480,7 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   4
+      dayindex        =   11
       Default         =   False
       Enabled         =   True
       Height          =   45
@@ -526,10 +494,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   16
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   143
       Visible         =   True
@@ -541,7 +507,7 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   5
+      dayindex        =   12
       Default         =   False
       Enabled         =   True
       Height          =   45
@@ -555,10 +521,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   17
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   143
       Visible         =   True
@@ -570,7 +534,7 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   6
+      dayindex        =   13
       Default         =   False
       Enabled         =   True
       Height          =   45
@@ -584,10 +548,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   18
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   143
       Visible         =   True
@@ -599,13 +561,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   0
+      dayindex        =   14
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   0
+      Left            =   1
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -613,10 +575,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   19
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   196
       Visible         =   True
@@ -628,13 +588,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   1
+      dayindex        =   15
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   62
+      Left            =   63
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -642,10 +602,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   20
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   196
       Visible         =   True
@@ -657,13 +615,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   2
+      dayindex        =   16
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   124
+      Left            =   125
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -671,10 +629,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   21
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   196
       Visible         =   True
@@ -686,13 +642,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   3
+      dayindex        =   17
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   186
+      Left            =   187
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -700,10 +656,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   22
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   196
       Visible         =   True
@@ -715,13 +669,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   4
+      dayindex        =   18
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   248
+      Left            =   249
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -729,10 +683,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   23
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   196
       Visible         =   True
@@ -744,13 +696,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   5
+      dayindex        =   19
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   310
+      Left            =   311
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -758,10 +710,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   24
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   196
       Visible         =   True
@@ -773,13 +723,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   6
+      dayindex        =   20
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   372
+      Left            =   373
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -787,10 +737,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   25
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   196
       Visible         =   True
@@ -802,13 +750,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   0
+      dayindex        =   21
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   0
+      Left            =   1
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -816,10 +764,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   26
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   248
       Visible         =   True
@@ -831,13 +777,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   1
+      dayindex        =   22
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   62
+      Left            =   63
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -845,10 +791,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   27
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   248
       Visible         =   True
@@ -860,13 +804,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   2
+      dayindex        =   23
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   124
+      Left            =   125
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -874,10 +818,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   28
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   248
       Visible         =   True
@@ -889,13 +831,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   3
+      dayindex        =   24
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   186
+      Left            =   187
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -903,10 +845,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   29
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   248
       Visible         =   True
@@ -918,13 +858,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   4
+      dayindex        =   25
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   248
+      Left            =   249
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -932,10 +872,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   30
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   248
       Visible         =   True
@@ -947,13 +885,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   5
+      dayindex        =   26
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   310
+      Left            =   311
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -961,10 +899,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   31
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   248
       Visible         =   True
@@ -976,13 +912,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   6
+      dayindex        =   27
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   372
+      Left            =   373
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -990,10 +926,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   32
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   248
       Visible         =   True
@@ -1005,13 +939,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   0
+      dayindex        =   28
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   0
+      Left            =   1
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1019,10 +953,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   33
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   298
       Visible         =   True
@@ -1034,13 +966,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   1
+      dayindex        =   29
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   62
+      Left            =   63
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1048,10 +980,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   34
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   298
       Visible         =   True
@@ -1063,13 +993,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   2
+      dayindex        =   30
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   124
+      Left            =   125
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1077,10 +1007,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   35
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   298
       Visible         =   True
@@ -1092,13 +1020,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   3
+      dayindex        =   31
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   186
+      Left            =   187
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1106,10 +1034,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   36
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   298
       Visible         =   True
@@ -1121,13 +1047,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   4
+      dayindex        =   32
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   248
+      Left            =   249
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1135,10 +1061,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   37
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   298
       Visible         =   True
@@ -1150,13 +1074,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   5
+      dayindex        =   33
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   310
+      Left            =   311
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1164,10 +1088,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   38
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   298
       Visible         =   True
@@ -1179,13 +1101,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   6
+      dayindex        =   34
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   372
+      Left            =   373
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1193,10 +1115,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   39
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   298
       Visible         =   True
@@ -1208,13 +1128,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   5
+      dayindex        =   35
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   0
+      Left            =   1
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1222,10 +1142,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   40
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   348
       Visible         =   True
@@ -1237,13 +1155,13 @@ Begin WebContainer iCalendar
       Cancel          =   False
       Caption         =   "00"
       ControlID       =   ""
-      dayindex        =   6
+      dayindex        =   36
       Default         =   False
       Enabled         =   True
       Height          =   45
       Index           =   -2147483648
       Indicator       =   0
-      Left            =   62
+      Left            =   63
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1251,10 +1169,8 @@ Begin WebContainer iCalendar
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
-      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   41
-      TabStop         =   True
       Tooltip         =   ""
       Top             =   348
       Visible         =   True
@@ -1265,12 +1181,119 @@ End
 #tag EndWebContainerControl
 
 #tag WindowCode
+	#tag Event
+		Sub Opening()
+		  dim i as integer
+		  dim AllDays as integer
+		  dim Today as new Date
+		  
+		  'set the month names
+		  months=Array("","January","February","March","April","May","June","July","August","September","October","November","December")
+		  
+		  'get today's date
+		  now=new date
+		  
+		  'show the month
+		  ShowingMonth = now.month
+		  'ScrollBar1.Value=12*(now.year-1980) + now.month-1
+		  ShowMonth
+		  
+		  'for AllDays = 0 to 36
+		  'if iDayButton(AllDays).Caption = str(Today.Day) then
+		  'iDayButton(AllDays).Style = DayPicked
+		  'else
+		  'iDayButton(AllDays).Style = CenterDays
+		  'end if
+		  'next AllDays
+		End Sub
+	#tag EndEvent
+
+
+	#tag Method, Flags = &h0
+		Function DaysInMonth(d as Date) As integer
+		  d.day=1
+		  d.month=d.month+1
+		  d.day=d.day-1
+		  return d.day
+		End Function
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub ShowMonth()
+		  dim i,n,t,j as integer
+		  dim d as new date
+		  
+		  'clear day numbers
+		  for i = 0 to self.ControlCount - 1
+		    if self.controlat(i) isa daybuttonclass then
+		      daybuttonclass(self.controlat(i)).caption = ""
+		      DayButtonClass(self.controlat(i)).Visible = false
+		    end if
+		  next
+		  
+		  
+		  
+		  
+		  'set date from scrollbar value
+		  now.day=1
+		  now.Month=ShowingMonth
+		  now.Year=d.year
+		  
+		  'show month/year
+		  lblMonth.Text=months(now.month) + " " + str(now.year)
+		  
+		  'display calendar
+		  i=now.DayOfWeek-1
+		  
+		  'This next routine is nicely written
+		  'Find the daybutton whose index is now.day
+		  
+		  t = DaysInMonth(now)
+		  now.day = 1
+		  for j = 1 to t
+		    for n = 0 to self.ControlCount - 1
+		      if self.controlat(n) isa daybuttonclass then
+		        if daybuttonclass(self.controlat(n)).dayindex = i then
+		          DayButtonClass(self.controlat(n)).Visible = true
+		          daybuttonclass(self.controlat(n)).caption = str(now.day) 'set day caption
+		          if now.day = d.day then
+		            DayButtonClass(self.controlat(n)).indicator = Indicators.primary
+		          end if
+		          exit
+		        end if
+		      end if
+		    next
+		    now.day=now.day+1                           'next day
+		    i=i+1                                                   'next text label
+		  next
+		  
+		  'we've gone on a month, so step back
+		  now.month=now.month-1
+		  
+		  
+		End Sub
+	#tag EndMethod
+
+
+	#tag Hook, Flags = &h0
+		Event JustPickedADay()
+	#tag EndHook
+
+
 	#tag Property, Flags = &h0
-		now As datetime
+		Months(12) As string
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
+		now As date
 	#tag EndProperty
 
 	#tag Property, Flags = &h0
 		SelectedDay As Integer
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
+		ShowingMonth As Integer
 	#tag EndProperty
 
 
@@ -1535,6 +1558,14 @@ End
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="SelectedDay"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ShowingMonth"
 		Visible=false
 		Group="Behavior"
 		InitialValue=""

@@ -169,7 +169,7 @@ Begin WebPage WebPage3
       Scope           =   0
       TabIndex        =   5
       Text            =   ""
-      TextAlignment   =   ""
+      TextAlignment   =   0
       Tooltip         =   ""
       Top             =   181
       Visible         =   True
@@ -231,7 +231,7 @@ Begin WebPage WebPage3
       Scope           =   0
       TabIndex        =   7
       Text            =   ""
-      TextAlignment   =   ""
+      TextAlignment   =   0
       Tooltip         =   ""
       Top             =   227
       Visible         =   True
@@ -247,7 +247,7 @@ Begin WebPage WebPage3
       Enabled         =   True
       Height          =   73
       Index           =   -2147483648
-      Indicator       =   ""
+      Indicator       =   0
       Left            =   487
       LockBottom      =   False
       LockedInPosition=   False
@@ -273,7 +273,7 @@ Begin WebPage WebPage3
       Enabled         =   True
       Height          =   73
       Index           =   -2147483648
-      Indicator       =   ""
+      Indicator       =   0
       Left            =   124
       LockBottom      =   False
       LockedInPosition=   False
@@ -345,7 +345,7 @@ Begin WebPage WebPage3
       Scope           =   0
       TabIndex        =   11
       Text            =   ""
-      TextAlignment   =   ""
+      TextAlignment   =   0
       Tooltip         =   ""
       Top             =   270
       Visible         =   True
@@ -407,7 +407,7 @@ Begin WebPage WebPage3
       Scope           =   0
       TabIndex        =   13
       Text            =   ""
-      TextAlignment   =   ""
+      TextAlignment   =   0
       Tooltip         =   ""
       Top             =   137
       Visible         =   True
@@ -448,8 +448,8 @@ Begin WebPage WebPage3
       Height          =   432
       Index           =   -2147483648
       Indicator       =   ""
-      LayoutDirection =   "LayoutDirections.LeftToRight"
-      LayoutType      =   "LayoutTypes.Fixed"
+      LayoutDirection =   0
+      LayoutType      =   0
       Left            =   367
       LockBottom      =   False
       LockedInPosition=   False
@@ -461,10 +461,11 @@ Begin WebPage WebPage3
       Scope           =   0
       settingdate     =   0
       TabIndex        =   14
-      TabPanelIndex   =   "0"
+      TabPanelIndex   =   0
       Tooltip         =   ""
       Top             =   118
       Visible         =   True
+      webpageseekingdate=   0
       Width           =   434
       _mDesignHeight  =   0
       _mDesignWidth   =   0
@@ -483,7 +484,7 @@ Begin WebPage WebPage3
       RouterHops      =   32
       Scope           =   0
       SendToSelf      =   False
-      TabPanelIndex   =   "0"
+      TabPanelIndex   =   0
    End
 End
 #tag EndWebPage

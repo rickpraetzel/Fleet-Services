@@ -17,18 +17,17 @@ Inherits WebApplication
 
 	#tag Method, Flags = &h0
 		Sub registermbs()
-		  
-		  
-		  // Desert Sand Software, MBS Complete, 201911, KR0R3JRcOanXr7fhgSmZEb5MaOrvqILLbZkIcYK0OMBhgUU6LoJYsR6cixKYfrK=
-		  dim s as string = decodeBase64("S1IwUjNKUmNPYW5YcjdmaGdTbVo=", encodings.UTF8)
+		  // Desert Sand Software, MBS Complete, 202411, KRbR3JxENtkNsM/o1KfXdQof0KJYUPBLOokV1fNwtebfTGZX+PX5Ku/vz4Xj8FeZ
+		  dim s as string = decodeBase64("S1JiUjNKeEVOdGtOc00vbzFLZlg=", encodings.UTF8)
 		  dim p as string = decodeBase64("TUJTIENvbXBsZXRl", encodings.UTF8)
 		  dim n as string = decodeBase64("RGVzZXJ0IFNhbmQgU29mdHdhcmU=", encodings.UTF8)
-		  dim e as integer = 201911
-		  dim t as string = decodeBase64("RWI1TWFPcnZxSUxMYlprSWNZSzBPTUJoZ1VVNkxvSllzUjZjaXhLWWZySz0=", encodings.UTF8)
+		  dim e as integer = 202411
+		  dim t as string = decodeBase64("ZFFvZjBLSllVUEJMT29rVjFmTnd0ZWJmVEdaWCtQWDVLdS92ejRYajhGZVo=", encodings.UTF8)
 		  
 		  if not registerMBSPlugin(n, p, e, s+t) then  
 		    MessageBox "MBS Plugin serial not valid?"  
 		  end if  
+		  
 		End Sub
 	#tag EndMethod
 

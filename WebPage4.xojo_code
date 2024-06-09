@@ -95,7 +95,7 @@ Begin WebPage WebPage4
       Enabled         =   True
       Height          =   73
       Index           =   -2147483648
-      Indicator       =   ""
+      Indicator       =   0
       Left            =   489
       LockBottom      =   False
       LockedInPosition=   False
@@ -121,7 +121,7 @@ Begin WebPage WebPage4
       Enabled         =   True
       Height          =   73
       Index           =   -2147483648
-      Indicator       =   ""
+      Indicator       =   0
       Left            =   132
       LockBottom      =   False
       LockedInPosition=   False
@@ -249,7 +249,7 @@ Begin WebPage WebPage4
       Enabled         =   False
       Height          =   22
       Index           =   -2147483648
-      Indicator       =   ""
+      Indicator       =   0
       Left            =   414
       LockBottom      =   False
       LockedInPosition=   False
@@ -273,8 +273,8 @@ Begin WebPage WebPage4
       Height          =   122
       Index           =   -2147483648
       Indicator       =   ""
-      LayoutDirection =   "LayoutDirections.LeftToRight"
-      LayoutType      =   "LayoutTypes.Fixed"
+      LayoutDirection =   0
+      LayoutType      =   0
       Left            =   489
       LockBottom      =   False
       LockedInPosition=   False
@@ -285,7 +285,7 @@ Begin WebPage WebPage4
       LockVertical    =   False
       Scope           =   0
       TabIndex        =   9
-      TabPanelIndex   =   "0"
+      TabPanelIndex   =   0
       Tooltip         =   ""
       Top             =   20
       Visible         =   True
@@ -411,7 +411,7 @@ Begin WebPage WebPage4
       Scope           =   0
       TabIndex        =   12
       Text            =   ""
-      TextAlignment   =   ""
+      TextAlignment   =   0
       Tooltip         =   ""
       Top             =   35
       Visible         =   True
@@ -442,7 +442,7 @@ Begin WebPage WebPage4
       Scope           =   0
       TabIndex        =   13
       Text            =   ""
-      TextAlignment   =   ""
+      TextAlignment   =   0
       Tooltip         =   ""
       Top             =   35
       Visible         =   True
@@ -499,7 +499,7 @@ Begin WebPage WebPage4
       Scope           =   0
       TabIndex        =   14
       Text            =   ""
-      TextAlignment   =   ""
+      TextAlignment   =   0
       Tooltip         =   ""
       Top             =   591
       Visible         =   True
@@ -513,8 +513,8 @@ Begin WebPage WebPage4
       Height          =   432
       Index           =   -2147483648
       Indicator       =   ""
-      LayoutDirection =   "LayoutDirections.LeftToRight"
-      LayoutType      =   "LayoutTypes.Fixed"
+      LayoutDirection =   0
+      LayoutType      =   0
       Left            =   387
       LockBottom      =   False
       LockedInPosition=   False
@@ -526,10 +526,11 @@ Begin WebPage WebPage4
       Scope           =   0
       settingdate     =   0
       TabIndex        =   15
-      TabPanelIndex   =   "0"
+      TabPanelIndex   =   0
       Tooltip         =   ""
       Top             =   138
       Visible         =   True
+      webpageseekingdate=   0
       Width           =   434
       _mDesignHeight  =   0
       _mDesignWidth   =   0
@@ -544,7 +545,7 @@ Begin WebPage WebPage4
       Enabled         =   True
       Height          =   22
       Index           =   -2147483648
-      Indicator       =   ""
+      Indicator       =   0
       Left            =   211
       LockBottom      =   False
       LockedInPosition=   False
