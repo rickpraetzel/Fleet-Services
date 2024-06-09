@@ -1219,6 +1219,12 @@ End
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
+		Sub JustPickedADay(inday as integer)
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
 		Sub ShowMonth()
 		  dim i,n,t,j as integer
 		  dim d as new date
@@ -1273,11 +1279,6 @@ End
 		  
 		End Sub
 	#tag EndMethod
-
-
-	#tag Hook, Flags = &h0
-		Event JustPickedADay()
-	#tag EndHook
 
 
 	#tag Property, Flags = &h0

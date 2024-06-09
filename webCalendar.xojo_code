@@ -43,6 +43,7 @@ Begin WebDialog webCalendar
       Scope           =   0
       ScrollDirection =   0
       SelectedDay     =   0
+      ShowingMonth    =   0
       TabIndex        =   0
       Tooltip         =   ""
       Top             =   0
@@ -81,13 +82,6 @@ End
 
 #tag EndWindowCode
 
-#tag Events iCalendar1
-	#tag Event
-		Sub JustPickedADay()
-		  self.close
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty
 		Name="ControlCount"

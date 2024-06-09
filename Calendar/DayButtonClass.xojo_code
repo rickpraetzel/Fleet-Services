@@ -22,6 +22,9 @@ Inherits Webbutton
 		  next sDay
 		  
 		  'iDay(SelectedDay).Style = DayPicked
+		  if me.parent isa iCalendar then
+		    icalendar(me.parent).justpickedaday(val(me.caption))
+		  end if
 		  JustPickedADay(val(me.caption))
 		  
 		End Sub
