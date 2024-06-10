@@ -33,7 +33,7 @@ Begin WebContainer iCalendar
       Index           =   -2147483648
       Indicator       =   0
       Italic          =   False
-      Left            =   3
+      Left            =   2
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -48,7 +48,7 @@ Begin WebContainer iCalendar
       TextAlignment   =   2
       TextColor       =   &c000000FF
       Tooltip         =   ""
-      Top             =   22
+      Top             =   16
       Underline       =   False
       Visible         =   True
       Width           =   429
@@ -1177,6 +1177,236 @@ Begin WebContainer iCalendar
       Width           =   60
       _mPanelIndex    =   -1
    End
+   Begin WebLabel Label1
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   16.0
+      Height          =   29
+      Index           =   -2147483648
+      Indicator       =   ""
+      Italic          =   False
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      TabIndex        =   42
+      TabStop         =   True
+      Text            =   "S"
+      TextAlignment   =   2
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   56
+      Underline       =   True
+      Visible         =   True
+      Width           =   25
+      _mPanelIndex    =   -1
+   End
+   Begin WebLabel Label2
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   16.0
+      Height          =   29
+      Index           =   -2147483648
+      indicator       =   0
+      Italic          =   False
+      Left            =   80
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      PanelIndex      =   0
+      Scope           =   0
+      TabIndex        =   43
+      TabStop         =   True
+      Text            =   "M"
+      TextAlignment   =   2
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   56
+      Underline       =   True
+      Visible         =   True
+      Width           =   25
+      _mPanelIndex    =   -1
+   End
+   Begin WebLabel Label3
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   16.0
+      Height          =   29
+      Index           =   -2147483648
+      indicator       =   0
+      Italic          =   False
+      Left            =   141
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      PanelIndex      =   0
+      Scope           =   0
+      TabIndex        =   44
+      TabStop         =   True
+      Text            =   "T"
+      TextAlignment   =   2
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   56
+      Underline       =   True
+      Visible         =   True
+      Width           =   25
+      _mPanelIndex    =   -1
+   End
+   Begin WebLabel Label4
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   16.0
+      Height          =   29
+      Index           =   -2147483648
+      indicator       =   0
+      Italic          =   False
+      Left            =   202
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      PanelIndex      =   0
+      Scope           =   0
+      TabIndex        =   45
+      TabStop         =   True
+      Text            =   "W"
+      TextAlignment   =   2
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   56
+      Underline       =   True
+      Visible         =   True
+      Width           =   25
+      _mPanelIndex    =   -1
+   End
+   Begin WebLabel Label5
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   16.0
+      Height          =   29
+      Index           =   -2147483648
+      indicator       =   0
+      Italic          =   False
+      Left            =   265
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      PanelIndex      =   0
+      Scope           =   0
+      TabIndex        =   46
+      TabStop         =   True
+      Text            =   "T"
+      TextAlignment   =   2
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   56
+      Underline       =   True
+      Visible         =   True
+      Width           =   25
+      _mPanelIndex    =   -1
+   End
+   Begin WebLabel Label6
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   16.0
+      Height          =   29
+      Index           =   -2147483648
+      indicator       =   0
+      Italic          =   False
+      Left            =   329
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      PanelIndex      =   0
+      Scope           =   0
+      TabIndex        =   47
+      TabStop         =   True
+      Text            =   "F"
+      TextAlignment   =   2
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   56
+      Underline       =   True
+      Visible         =   True
+      Width           =   25
+      _mPanelIndex    =   -1
+   End
+   Begin WebLabel Label7
+      Bold            =   False
+      ControlID       =   ""
+      Enabled         =   True
+      FontName        =   ""
+      FontSize        =   16.0
+      Height          =   29
+      Index           =   -2147483648
+      indicator       =   0
+      Italic          =   False
+      Left            =   389
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      PanelIndex      =   0
+      Scope           =   0
+      TabIndex        =   48
+      TabStop         =   True
+      Text            =   "S"
+      TextAlignment   =   2
+      TextColor       =   &c000000FF
+      Tooltip         =   ""
+      Top             =   56
+      Underline       =   True
+      Visible         =   True
+      Width           =   25
+      _mPanelIndex    =   -1
+   End
 End
 #tag EndWebContainerControl
 
@@ -1295,6 +1525,10 @@ End
 
 	#tag Property, Flags = &h0
 		ShowingMonth As Integer
+	#tag EndProperty
+
+	#tag Property, Flags = &h0
+		ShowingYear As Integer
 	#tag EndProperty
 
 
@@ -1567,6 +1801,14 @@ End
 	#tag EndViewProperty
 	#tag ViewProperty
 		Name="ShowingMonth"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ShowingYear"
 		Visible=false
 		Group="Behavior"
 		InitialValue=""

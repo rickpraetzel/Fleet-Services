@@ -75,10 +75,6 @@ End
 		settingdate As Integer
 	#tag EndProperty
 
-	#tag Property, Flags = &h0
-		webpageseekingdate As Integer
-	#tag EndProperty
-
 
 #tag EndWindowCode
 
@@ -316,13 +312,5 @@ End
 			"0 - Startdate"
 			"1 - Enddate"
 		#tag EndEnumValues
-	#tag EndViewProperty
-	#tag ViewProperty
-		Name="webpageseekingdate"
-		Visible=false
-		Group="Behavior"
-		InitialValue=""
-		Type="Integer"
-		EditorType=""
 	#tag EndViewProperty
 #tag EndViewBehavior

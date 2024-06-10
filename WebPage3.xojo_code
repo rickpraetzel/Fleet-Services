@@ -86,34 +86,6 @@ Begin WebPage WebPage3
       Width           =   225
       _mPanelIndex    =   -1
    End
-   Begin WebPopupMenu PopupMenu3
-      ControlID       =   ""
-      Enabled         =   False
-      Height          =   22
-      Index           =   -2147483648
-      Indicator       =   ""
-      InitialValue    =   ""
-      LastAddedRowIndex=   0
-      LastRowIndex    =   0
-      Left            =   529
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      RowCount        =   0
-      Scope           =   0
-      SelectedRowIndex=   0
-      SelectedRowText =   ""
-      TabIndex        =   3
-      Tooltip         =   ""
-      Top             =   69
-      Visible         =   False
-      Width           =   225
-      _mPanelIndex    =   -1
-   End
    Begin WebLabel Label1
       Bold            =   False
       ControlID       =   ""
@@ -519,7 +491,7 @@ End
 		  
 		  PopupMenu1.SelectedRowIndex = 0
 		  popupmenu2.SelectedRowIndex = 0
-		  PopupMenu3.SelectedRowIndex = 0
+		  'PopupMenu3.SelectedRowIndex = 0
 		  
 		  TextField1.text = ""
 		  TextField2.text = ""
@@ -622,13 +594,6 @@ End
 
 #tag EndWindowCode
 
-#tag Events PopupMenu3
-	#tag Event
-		Sub SelectionChanged(item As WebMenuItem)
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag Events Button1
 	#tag Event
 		Sub Pressed()
