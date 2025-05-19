@@ -32,6 +32,7 @@ Begin WebPage WebPage6
    _ImplicitInstance=   False
    _mDesignHeight  =   0
    _mDesignWidth   =   0
+   _mName          =   ""
    _mPanelIndex    =   -1
    Begin WebPopupMenu PopupMenu1
       ControlID       =   ""
