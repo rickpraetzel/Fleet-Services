@@ -41,7 +41,7 @@ Inherits WebApplication
 	#tag EndProperty
 
 	#tag Property, Flags = &h0
-		testmode As boolean = True
+		testmode As boolean = False
 	#tag EndProperty
 
 

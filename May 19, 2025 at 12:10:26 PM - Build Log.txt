@@ -1,0 +1,2 @@
+May 19, 2025 at 12:10:27 PM - Removing attributes: xattr -cr "/Users/Man/Current Projects/Fleet-Services/Builds - Fleet Services Monitor/macOS 64 bit/ZAC Fleet Services Monitor"
+May 19, 2025 at 12:10:27 PM - Signing; codesigning --force --deep  -s - "/Users/Man/Current Projects/Fleet-Services/Builds - Fleet Services Monitor/macOS 64 bit/ZAC Fleet Services Monitor/ZAC Fleet Services Monitor"

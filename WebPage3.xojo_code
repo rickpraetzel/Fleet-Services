@@ -4,6 +4,7 @@ Begin WebPage WebPage3
    Compatibility   =   ""
    ControlCount    =   0
    ControlID       =   ""
+   CSSClasses      =   ""
    Enabled         =   True
    Height          =   870
    ImplicitInstance=   True
@@ -21,6 +22,8 @@ Begin WebPage WebPage3
    LockVertical    =   False
    MinimumHeight   =   400
    MinimumWidth    =   600
+   PanelIndex      =   0
+   ScaleFactor     =   0.0
    TabIndex        =   0
    Title           =   "Fuel Fill Up"
    Top             =   0
@@ -32,6 +35,7 @@ Begin WebPage WebPage3
    _mPanelIndex    =   -1
    Begin WebPopupMenu PopupMenu1
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   22
       Index           =   -2147483648
@@ -47,11 +51,13 @@ Begin WebPage WebPage3
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       RowCount        =   0
       Scope           =   0
       SelectedRowIndex=   0
       SelectedRowText =   ""
       TabIndex        =   1
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   69
       Visible         =   True
@@ -60,6 +66,7 @@ Begin WebPage WebPage3
    End
    Begin WebPopupMenu PopupMenu2
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   22
       Index           =   -2147483648
@@ -75,11 +82,13 @@ Begin WebPage WebPage3
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       RowCount        =   0
       Scope           =   0
       SelectedRowIndex=   0
       SelectedRowText =   ""
       TabIndex        =   2
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   69
       Visible         =   True
@@ -89,6 +98,7 @@ Begin WebPage WebPage3
    Begin WebLabel Label1
       Bold            =   False
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FontName        =   ""
       FontSize        =   0.0
@@ -105,8 +115,10 @@ Begin WebPage WebPage3
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   4
+      TabStop         =   True
       Text            =   "Mileage:"
       TextAlignment   =   0
       TextColor       =   &c000000FF
@@ -122,6 +134,7 @@ Begin WebPage WebPage3
       AllowSpellChecking=   False
       Caption         =   ""
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FieldType       =   3
       Height          =   22
@@ -137,9 +150,11 @@ Begin WebPage WebPage3
       LockTop         =   True
       LockVertical    =   False
       MaximumCharactersAllowed=   0
+      PanelIndex      =   0
       ReadOnly        =   False
       Scope           =   0
       TabIndex        =   5
+      TabStop         =   True
       Text            =   ""
       TextAlignment   =   0
       Tooltip         =   ""
@@ -151,6 +166,7 @@ Begin WebPage WebPage3
    Begin WebLabel Label2
       Bold            =   False
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FontName        =   ""
       FontSize        =   0.0
@@ -167,8 +183,10 @@ Begin WebPage WebPage3
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   6
+      TabStop         =   True
       Text            =   "Gallons:"
       TextAlignment   =   0
       TextColor       =   &c000000FF
@@ -184,6 +202,7 @@ Begin WebPage WebPage3
       AllowSpellChecking=   False
       Caption         =   ""
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FieldType       =   3
       Height          =   22
@@ -199,9 +218,11 @@ Begin WebPage WebPage3
       LockTop         =   True
       LockVertical    =   False
       MaximumCharactersAllowed=   0
+      PanelIndex      =   0
       ReadOnly        =   False
       Scope           =   0
       TabIndex        =   7
+      TabStop         =   True
       Text            =   ""
       TextAlignment   =   0
       Tooltip         =   ""
@@ -215,6 +236,7 @@ Begin WebPage WebPage3
       Cancel          =   False
       Caption         =   "Submit"
       ControlID       =   ""
+      CSSClasses      =   ""
       Default         =   False
       Enabled         =   True
       Height          =   73
@@ -228,8 +250,11 @@ Begin WebPage WebPage3
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Outlined        =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   8
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   405
       Visible         =   True
@@ -241,6 +266,7 @@ Begin WebPage WebPage3
       Cancel          =   False
       Caption         =   "Cancel"
       ControlID       =   ""
+      CSSClasses      =   ""
       Default         =   False
       Enabled         =   True
       Height          =   73
@@ -254,8 +280,11 @@ Begin WebPage WebPage3
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Outlined        =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   9
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   405
       Visible         =   True
@@ -265,6 +294,7 @@ Begin WebPage WebPage3
    Begin WebLabel Label3
       Bold            =   False
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FontName        =   ""
       FontSize        =   0.0
@@ -281,8 +311,10 @@ Begin WebPage WebPage3
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   10
+      TabStop         =   True
       Text            =   "Paid:"
       TextAlignment   =   0
       TextColor       =   &c000000FF
@@ -298,6 +330,7 @@ Begin WebPage WebPage3
       AllowSpellChecking=   False
       Caption         =   ""
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FieldType       =   3
       Height          =   22
@@ -313,9 +346,11 @@ Begin WebPage WebPage3
       LockTop         =   True
       LockVertical    =   False
       MaximumCharactersAllowed=   0
+      PanelIndex      =   0
       ReadOnly        =   False
       Scope           =   0
       TabIndex        =   11
+      TabStop         =   True
       Text            =   ""
       TextAlignment   =   0
       Tooltip         =   ""
@@ -327,6 +362,7 @@ Begin WebPage WebPage3
    Begin WebLabel Label4
       Bold            =   False
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FontName        =   ""
       FontSize        =   0.0
@@ -343,8 +379,10 @@ Begin WebPage WebPage3
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   12
+      TabStop         =   True
       Text            =   "Date:"
       TextAlignment   =   0
       TextColor       =   &c000000FF
@@ -360,6 +398,7 @@ Begin WebPage WebPage3
       AllowSpellChecking=   False
       Caption         =   ""
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FieldType       =   0
       Height          =   22
@@ -375,9 +414,11 @@ Begin WebPage WebPage3
       LockTop         =   True
       LockVertical    =   False
       MaximumCharactersAllowed=   0
+      PanelIndex      =   0
       ReadOnly        =   True
       Scope           =   0
       TabIndex        =   13
+      TabStop         =   True
       Text            =   ""
       TextAlignment   =   0
       Tooltip         =   ""
@@ -388,6 +429,7 @@ Begin WebPage WebPage3
    End
    Begin WebImageViewer ImageView1
       ControlID       =   ""
+      CSSClasses      =   ""
       DisplayMode     =   3
       Enabled         =   True
       Height          =   64
@@ -402,9 +444,11 @@ Begin WebPage WebPage3
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       Scope           =   0
       SVGData         =   ""
       TabIndex        =   14
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   136
       URL             =   ""
@@ -416,6 +460,7 @@ Begin WebPage WebPage3
    Begin webCalendar webCalendar1
       ControlCount    =   0
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   432
       Index           =   -2147483648
@@ -430,14 +475,17 @@ Begin WebPage WebPage3
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
+      Position        =   0
       Scope           =   0
       settingdate     =   0
       TabIndex        =   14
       TabPanelIndex   =   0
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   118
       Visible         =   True
-      webpageseekingdate=   0
+      webpageseekingdate=   "0"
       Width           =   434
       _mDesignHeight  =   0
       _mDesignWidth   =   0
@@ -445,6 +493,7 @@ Begin WebPage WebPage3
    End
    Begin AutoDiscoveryClass AutoDiscoveryClass1
       BroadcastAddress=   ""
+      Enabled         =   True
       Handle          =   0
       Index           =   -2147483648
       IsConnected     =   False
@@ -546,7 +595,7 @@ End
 		Sub RecordTheFillup()
 		  if session.mysqldb <> nil then
 		    if session.mysqldb.Connect then
-		      if PopupMenu3.selectedrowtext <> "Fill up Station..." AND popupmenu1.selectedrowtext <> "Vehicle..." AND popupmenu2.selectedrowtext <> "Driver..." then 'we have a report to record
+		      if popupmenu1.selectedrowtext <> "Vehicle..." AND popupmenu2.selectedrowtext <> "Driver..." then 'we have a report to record
 		        if TextField1.text = "" or textfield2.text = "" or textfield3.text = "" then
 		          MessageBox "Please provide the mileage, gallons, and amount paid."
 		          exit
@@ -619,6 +668,22 @@ End
 	#tag EndEvent
 #tag EndEvents
 #tag ViewBehavior
+	#tag ViewProperty
+		Name="PanelIndex"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ScaleFactor"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Double"
+		EditorType=""
+	#tag EndViewProperty
 	#tag ViewProperty
 		Name="ControlCount"
 		Visible=false
