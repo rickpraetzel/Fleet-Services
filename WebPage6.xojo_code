@@ -4,6 +4,7 @@ Begin WebPage WebPage6
    Compatibility   =   ""
    ControlCount    =   0
    ControlID       =   ""
+   CSSClasses      =   ""
    Enabled         =   True
    Height          =   870
    ImplicitInstance=   True
@@ -21,6 +22,8 @@ Begin WebPage WebPage6
    LockVertical    =   False
    MinimumHeight   =   400
    MinimumWidth    =   600
+   PanelIndex      =   0
+   ScaleFactor     =   0.0
    TabIndex        =   0
    Title           =   "Vehicle Problem Report"
    Top             =   0
@@ -32,6 +35,7 @@ Begin WebPage WebPage6
    _mPanelIndex    =   -1
    Begin WebPopupMenu PopupMenu1
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   22
       Index           =   -2147483648
@@ -47,11 +51,13 @@ Begin WebPage WebPage6
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       RowCount        =   0
       Scope           =   0
       SelectedRowIndex=   0
       SelectedRowText =   ""
       TabIndex        =   1
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   69
       Visible         =   True
@@ -60,6 +66,7 @@ Begin WebPage WebPage6
    End
    Begin WebPopupMenu PopupMenu2
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   22
       Index           =   -2147483648
@@ -75,11 +82,13 @@ Begin WebPage WebPage6
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       RowCount        =   0
       Scope           =   0
       SelectedRowIndex=   0
       SelectedRowText =   ""
       TabIndex        =   2
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   69
       Visible         =   False
@@ -91,6 +100,7 @@ Begin WebPage WebPage6
       Cancel          =   False
       Caption         =   "Submit"
       ControlID       =   ""
+      CSSClasses      =   ""
       Default         =   False
       Enabled         =   True
       Height          =   73
@@ -104,8 +114,11 @@ Begin WebPage WebPage6
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Outlined        =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   3
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   290
       Visible         =   True
@@ -117,6 +130,7 @@ Begin WebPage WebPage6
       Cancel          =   False
       Caption         =   "Cancel"
       ControlID       =   ""
+      CSSClasses      =   ""
       Default         =   False
       Enabled         =   True
       Height          =   73
@@ -130,8 +144,11 @@ Begin WebPage WebPage6
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Outlined        =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   4
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   290
       Visible         =   True
@@ -143,6 +160,7 @@ Begin WebPage WebPage6
       AllowSpellChecking=   False
       Caption         =   ""
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   28
       Hint            =   ""
@@ -157,9 +175,11 @@ Begin WebPage WebPage6
       LockTop         =   True
       LockVertical    =   False
       MaximumCharactersAllowed=   0
+      PanelIndex      =   0
       ReadOnly        =   False
       Scope           =   0
       TabIndex        =   5
+      TabStop         =   True
       Text            =   ""
       TextAlignment   =   ""
       Tooltip         =   ""
@@ -171,6 +191,7 @@ Begin WebPage WebPage6
    Begin WebLabel Label1
       Bold            =   False
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FontName        =   ""
       FontSize        =   0.0
@@ -187,8 +208,10 @@ Begin WebPage WebPage6
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   6
+      TabStop         =   True
       Text            =   "Notation:"
       TextAlignment   =   0
       TextColor       =   &c000000FF
@@ -201,6 +224,7 @@ Begin WebPage WebPage6
    End
    Begin WebPopupMenu PopupMenu3
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   22
       Index           =   -2147483648
@@ -216,11 +240,13 @@ Begin WebPage WebPage6
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       RowCount        =   0
       Scope           =   0
       SelectedRowIndex=   0
       SelectedRowText =   ""
       TabIndex        =   7
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   69
       Visible         =   True
@@ -229,6 +255,7 @@ Begin WebPage WebPage6
    End
    Begin AutoDiscoveryClass AutoDiscoveryClass1
       BroadcastAddress=   ""
+      Enabled         =   True
       Handle          =   0
       Index           =   -2147483648
       IsConnected     =   False
@@ -240,7 +267,7 @@ Begin WebPage WebPage6
       RouterHops      =   32
       Scope           =   0
       SendToSelf      =   False
-      TabPanelIndex   =   "0"
+      TabPanelIndex   =   0
    End
 End
 #tag EndWebPage
@@ -303,7 +330,7 @@ End
 		  dim rs as recordset
 		  dim sqlstring as string
 		  
-		  sqlstring = "select concat(firstname,' ',lastname),serial from employees where isdotdriver = 1 or isaguide = 1 ORDER by lastname,firstname"
+		  sqlstring = "select concat(firstname,' ',lastname),serial from employees where status = 1 ORDER by lastname,firstname"
 		  rs = session.mysqldb.SQLSelect(sqlstring)
 		  if rs <> nil then
 		    if not rs.bof and not rs.eof then
@@ -521,6 +548,22 @@ End
 	#tag EndEvent
 #tag EndEvents
 #tag ViewBehavior
+	#tag ViewProperty
+		Name="PanelIndex"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ScaleFactor"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Double"
+		EditorType=""
+	#tag EndViewProperty
 	#tag ViewProperty
 		Name="ControlCount"
 		Visible=false

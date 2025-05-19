@@ -1,5 +1,5 @@
 Type=Web2
-RBProjectVersion=2023.04
+RBProjectVersion=2025.01
 MinIDEVersion=20200200
 OrigIDEVersion=20230400
 Class=App;App.xojo_code;&h0000000000DDA935;&h0000000000000000;false
@@ -77,6 +77,7 @@ IncludePDB=False
 WinUIFramework=False
 IsWebProject=True
 WebDebugPort=8400
+WebLaunchBrowser=True
 WebLivePort=8224
 WebSecurePort=443
 WebProtocol=1

@@ -4,6 +4,7 @@ Begin WebPage WebPage4
    Compatibility   =   ""
    ControlCount    =   0
    ControlID       =   ""
+   CSSClasses      =   ""
    Enabled         =   True
    Height          =   870
    ImplicitInstance=   True
@@ -21,6 +22,8 @@ Begin WebPage WebPage4
    LockVertical    =   False
    MinimumHeight   =   400
    MinimumWidth    =   600
+   PanelIndex      =   0
+   ScaleFactor     =   0.0
    TabIndex        =   0
    Title           =   "Vehicle Repair Event"
    Top             =   0
@@ -32,6 +35,7 @@ Begin WebPage WebPage4
    _mPanelIndex    =   -1
    Begin WebPopupMenu PopupMenu1
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   22
       Index           =   -2147483648
@@ -47,11 +51,13 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       RowCount        =   0
       Scope           =   0
       SelectedRowIndex=   0
       SelectedRowText =   ""
       TabIndex        =   1
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   35
       Visible         =   True
@@ -60,6 +66,7 @@ Begin WebPage WebPage4
    End
    Begin WebPopupMenu PopupMenu2
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   22
       Index           =   -2147483648
@@ -75,11 +82,13 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       RowCount        =   0
       Scope           =   0
       SelectedRowIndex=   0
       SelectedRowText =   ""
       TabIndex        =   2
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   77
       Visible         =   True
@@ -91,6 +100,7 @@ Begin WebPage WebPage4
       Cancel          =   False
       Caption         =   "Submit"
       ControlID       =   ""
+      CSSClasses      =   ""
       Default         =   False
       Enabled         =   True
       Height          =   73
@@ -104,8 +114,11 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Outlined        =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   3
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   689
       Visible         =   True
@@ -117,6 +130,7 @@ Begin WebPage WebPage4
       Cancel          =   False
       Caption         =   "Cancel"
       ControlID       =   ""
+      CSSClasses      =   ""
       Default         =   False
       Enabled         =   True
       Height          =   73
@@ -130,8 +144,11 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Outlined        =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   4
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   689
       Visible         =   True
@@ -140,6 +157,7 @@ Begin WebPage WebPage4
    End
    Begin WebPopupMenu PopupMenu3
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   22
       Index           =   -2147483648
@@ -155,11 +173,13 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       RowCount        =   0
       Scope           =   0
       SelectedRowIndex=   0
       SelectedRowText =   ""
       TabIndex        =   5
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   78
       Visible         =   True
@@ -167,11 +187,17 @@ Begin WebPage WebPage4
       _mPanelIndex    =   -1
    End
    Begin WebListBox ListBox1
+      AllowRowReordering=   False
       ColumnCount     =   1
       ColumnWidths    =   "*"
       ControlID       =   ""
+      CSSClasses      =   ""
+      DefaultRowHeight=   49
       Enabled         =   True
+      GridLineStyle   =   3
+      HasBorder       =   True
       HasHeader       =   False
+      HeaderHeight    =   0
       Height          =   394
       HighlightSortedColumn=   True
       Index           =   -2147483648
@@ -189,6 +215,7 @@ Begin WebPage WebPage4
       LockTop         =   True
       LockVertical    =   False
       NoRowsMessage   =   ""
+      PanelIndex      =   0
       ProcessingMessage=   ""
       RowCount        =   0
       RowSelectionType=   1
@@ -197,6 +224,7 @@ Begin WebPage WebPage4
       SelectedRowColor=   &c0d6efd
       SelectedRowIndex=   0
       TabIndex        =   6
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   139
       Visible         =   True
@@ -204,11 +232,17 @@ Begin WebPage WebPage4
       _mPanelIndex    =   -1
    End
    Begin WebListBox ListBox2
+      AllowRowReordering=   False
       ColumnCount     =   1
       ColumnWidths    =   "*"
       ControlID       =   ""
+      CSSClasses      =   ""
+      DefaultRowHeight=   49
       Enabled         =   True
+      GridLineStyle   =   3
+      HasBorder       =   True
       HasHeader       =   False
+      HeaderHeight    =   0
       Height          =   394
       HighlightSortedColumn=   True
       Index           =   -2147483648
@@ -226,6 +260,7 @@ Begin WebPage WebPage4
       LockTop         =   True
       LockVertical    =   False
       NoRowsMessage   =   ""
+      PanelIndex      =   0
       ProcessingMessage=   ""
       RowCount        =   0
       RowSelectionType=   1
@@ -234,6 +269,7 @@ Begin WebPage WebPage4
       SelectedRowColor=   &c0d6efd
       SelectedRowIndex=   0
       TabIndex        =   7
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   139
       Visible         =   True
@@ -245,6 +281,7 @@ Begin WebPage WebPage4
       Cancel          =   False
       Caption         =   "Add item to this list"
       ControlID       =   ""
+      CSSClasses      =   ""
       Default         =   False
       Enabled         =   False
       Height          =   22
@@ -258,8 +295,11 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Outlined        =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   8
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   545
       Visible         =   True
@@ -269,6 +309,7 @@ Begin WebPage WebPage4
    Begin AddValueDialog AddValueDialog1
       ControlCount    =   0
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   122
       Index           =   -2147483648
@@ -283,9 +324,12 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
+      Position        =   0
       Scope           =   0
       TabIndex        =   9
       TabPanelIndex   =   0
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   20
       Visible         =   True
@@ -297,6 +341,7 @@ Begin WebPage WebPage4
    Begin WebLabel Label2
       Bold            =   False
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FontName        =   ""
       FontSize        =   0.0
@@ -313,8 +358,10 @@ Begin WebPage WebPage4
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   9
+      TabStop         =   True
       Text            =   "Mileage"
       TextAlignment   =   0
       TextColor       =   &c000000FF
@@ -328,6 +375,7 @@ Begin WebPage WebPage4
    Begin WebLabel Label3
       Bold            =   False
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FontName        =   ""
       FontSize        =   0.0
@@ -344,8 +392,10 @@ Begin WebPage WebPage4
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   10
+      TabStop         =   True
       Text            =   "Notes"
       TextAlignment   =   0
       TextColor       =   &c000000FF
@@ -359,6 +409,7 @@ Begin WebPage WebPage4
    Begin WebLabel Label4
       Bold            =   False
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FontName        =   ""
       FontSize        =   0.0
@@ -375,8 +426,10 @@ Begin WebPage WebPage4
       LockTop         =   True
       LockVertical    =   False
       Multiline       =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   11
+      TabStop         =   True
       Text            =   "Date:"
       TextAlignment   =   0
       TextColor       =   &c000000FF
@@ -392,6 +445,7 @@ Begin WebPage WebPage4
       AllowSpellChecking=   False
       Caption         =   ""
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FieldType       =   0
       Height          =   22
@@ -407,9 +461,11 @@ Begin WebPage WebPage4
       LockTop         =   True
       LockVertical    =   False
       MaximumCharactersAllowed=   0
+      PanelIndex      =   0
       ReadOnly        =   True
       Scope           =   0
       TabIndex        =   12
+      TabStop         =   True
       Text            =   ""
       TextAlignment   =   0
       Tooltip         =   ""
@@ -423,6 +479,7 @@ Begin WebPage WebPage4
       AllowSpellChecking=   False
       Caption         =   ""
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       FieldType       =   3
       Height          =   22
@@ -438,9 +495,11 @@ Begin WebPage WebPage4
       LockTop         =   True
       LockVertical    =   False
       MaximumCharactersAllowed=   0
+      PanelIndex      =   0
       ReadOnly        =   False
       Scope           =   0
       TabIndex        =   13
+      TabStop         =   True
       Text            =   ""
       TextAlignment   =   0
       Tooltip         =   ""
@@ -451,6 +510,7 @@ Begin WebPage WebPage4
    End
    Begin WebImageViewer ImageView1
       ControlID       =   ""
+      CSSClasses      =   ""
       DisplayMode     =   3
       Enabled         =   True
       Height          =   64
@@ -465,9 +525,11 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
       Scope           =   0
       SVGData         =   ""
       TabIndex        =   14
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   35
       URL             =   ""
@@ -481,6 +543,7 @@ Begin WebPage WebPage4
       AllowSpellChecking=   False
       Caption         =   ""
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   64
       Hint            =   ""
@@ -495,9 +558,11 @@ Begin WebPage WebPage4
       LockTop         =   True
       LockVertical    =   False
       MaximumCharactersAllowed=   0
+      PanelIndex      =   0
       ReadOnly        =   False
       Scope           =   0
       TabIndex        =   14
+      TabStop         =   True
       Text            =   ""
       TextAlignment   =   0
       Tooltip         =   ""
@@ -509,6 +574,7 @@ Begin WebPage WebPage4
    Begin webCalendar webCalendar1
       ControlCount    =   0
       ControlID       =   ""
+      CSSClasses      =   ""
       Enabled         =   True
       Height          =   432
       Index           =   -2147483648
@@ -523,10 +589,13 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      PanelIndex      =   0
+      Position        =   0
       Scope           =   0
       settingdate     =   0
       TabIndex        =   15
       TabPanelIndex   =   0
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   138
       Visible         =   True
@@ -541,6 +610,7 @@ Begin WebPage WebPage4
       Cancel          =   False
       Caption         =   "Remove Item"
       ControlID       =   ""
+      CSSClasses      =   ""
       Default         =   False
       Enabled         =   True
       Height          =   22
@@ -554,8 +624,11 @@ Begin WebPage WebPage4
       LockRight       =   False
       LockTop         =   True
       LockVertical    =   False
+      Outlined        =   False
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   15
+      TabStop         =   True
       Tooltip         =   ""
       Top             =   545
       Visible         =   True
@@ -622,7 +695,7 @@ End
 		  dim rs as recordset
 		  dim sqlstring as string
 		  
-		  sqlstring = "select concat(firstname,' ',lastname),serial from employees where isdotdriver = 1 or isaguide = 1 ORDER by lastname,firstname"
+		  sqlstring = "select concat(firstname,' ',lastname),serial from employees where status = 1 ORDER by lastname,firstname"
 		  rs = session.mysqldb.SQLSelect(sqlstring)
 		  if rs <> nil then
 		    if not rs.bof and not rs.eof then
@@ -766,7 +839,7 @@ End
 		Sub SelectionChanged(rows() As Integer)
 		  if me.SelectedRowIndex <> -1 then
 		    
-		    listbox1.addrowat (me.celltextat(me.SelectedRowIndex,0))
+		    listbox1.addrow (me.celltextat(me.SelectedRowIndex,0))
 		  end if
 		End Sub
 	#tag EndEvent
@@ -799,6 +872,22 @@ End
 	#tag EndEvent
 #tag EndEvents
 #tag ViewBehavior
+	#tag ViewProperty
+		Name="PanelIndex"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Integer"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="ScaleFactor"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Double"
+		EditorType=""
+	#tag EndViewProperty
 	#tag ViewProperty
 		Name="ControlCount"
 		Visible=false
