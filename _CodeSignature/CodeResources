@@ -72,14 +72,14 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>May 19, 2025 at 12:11:15 PM - Build Log.txt</key>
+		<key>May 19, 2025 at 4:14:00 PM - Build Log.txt</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			PpUbcXRgF51d2no0BgGzCm9Vs1c=
+			EiS2QM1vgdeK2VcOKGDx31TMh5Q=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"655115dff94c74f13a28491ae19e5a59c4d2c302" or cdhash H"3e951b717460179d5dda7a340601b30a6f55b357"</string>
+			<string>cdhash H"35d24d46034490f0b9ebefe6bb4299046eaba3eb" or cdhash H"1224b640cd6f81d78ad9570e2860f1df54cc8794"</string>
 		</dict>
 		<key>Resources/Calendar64.png</key>
 		<dict>
